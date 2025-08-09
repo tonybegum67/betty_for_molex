@@ -1,9 +1,0 @@
-streamlit
-openai
-chromadb>=0.4.22
-sentence-transformers
-PyPDF2
-python-docx
-tiktoken
-# pysqlite3-binary  # Not needed for Python 3.13
-streamlit-mermaid
