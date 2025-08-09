@@ -71,7 +71,7 @@ betty_app.py (Main Betty Application)
 - Built-in coaching and educational capabilities
 - Automatic RAG integration with permanent knowledge base
 
-**System Prompt**: Contains comprehensive Betty 2.2 Beta personality with:
+**System Prompt**: Contains comprehensive Betty personality with:
 - Strategic transformation competencies
 - OBT coaching capabilities
 - Knowledge base architecture understanding
