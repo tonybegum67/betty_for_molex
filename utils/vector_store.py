@@ -227,7 +227,13 @@ class VectorStore:
         n_results = n_results or AppConfig.MAX_SEARCH_RESULTS
         
         try:
-            collection = self.client.get_collection(name=collection_name)
+            collection = self.get_or_create_collection(collection_name)
+            
+            # Check if collection has any documents
+            if collection.count() == 0:
+                st.warning(f"Collection '{collection_name}' exists but contains no documents. Please add documents to the knowledge base.")
+                return []
+            
             query_embedding = self.embedding_model.encode([query]).tolist()
             
             results = collection.query(

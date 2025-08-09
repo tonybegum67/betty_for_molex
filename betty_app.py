@@ -50,15 +50,23 @@ st.set_page_config(
 
 # Auto-initialize knowledge base for in-memory ChromaDB
 def initialize_knowledge_base():
-    """Initialize knowledge base from documents folder on Streamlit Cloud."""
-    # Check if we're running in-memory mode (cloud deployment)
-    is_cloud = (os.getenv("STREAMLIT_SHARING") or 
-               os.getenv("STREAMLIT_CLOUD") or
-               os.getenv("STREAMLIT_RUNTIME_ENV") == "cloud")
-    
-    if is_cloud and "knowledge_base_initialized" not in st.session_state:
-        with st.spinner("🔄 Initializing knowledge base for cloud deployment..."):
+    """Initialize knowledge base from documents folder."""
+    # Check if we need to initialize (works for both cloud and local)
+    if "knowledge_base_initialized" not in st.session_state:
+        with st.spinner("🔄 Initializing Betty's knowledge base..."):
             try:
+                # Check if collection exists and has documents
+                collections = betty_vector_store.list_collections()
+                collection_name = AppConfig.KNOWLEDGE_COLLECTION_NAME
+                
+                if collection_name in collections:
+                    # Collection exists, check if it has documents
+                    collection = betty_vector_store.get_or_create_collection(collection_name)
+                    if collection.count() > 0:
+                        st.session_state.knowledge_base_initialized = True
+                        st.success(f"✅ Knowledge base already initialized with {collection.count()} documents!")
+                        return
+                
                 # Get documents from the docs folder
                 docs_path = "docs"
                 if os.path.exists(docs_path):
@@ -70,7 +78,7 @@ def initialize_knowledge_base():
                     if doc_files:
                         st.info(f"📚 Loading {len(doc_files)} documents into knowledge base...")
                         success = betty_vector_store.add_documents_from_files(
-                            AppConfig.DEFAULT_COLLECTION_NAME, 
+                            collection_name, 
                             doc_files, 
                             show_progress=True
                         )
@@ -82,11 +90,17 @@ def initialize_knowledge_base():
                             st.error("❌ Failed to initialize knowledge base")
                     else:
                         st.warning("⚠️ No documents found in docs folder")
+                        # Still mark as initialized to prevent repeated attempts
+                        st.session_state.knowledge_base_initialized = True
                 else:
                     st.warning("⚠️ docs folder not found")
+                    # Still mark as initialized to prevent repeated attempts
+                    st.session_state.knowledge_base_initialized = True
                     
             except Exception as e:
                 st.error(f"❌ Error initializing knowledge base: {e}")
+                # Mark as attempted to prevent infinite retry loops
+                st.session_state.knowledge_base_initialized = True
 
 # Initialize session state early
 if "messages" not in st.session_state:
