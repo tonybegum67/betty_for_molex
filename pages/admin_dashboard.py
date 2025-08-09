@@ -67,7 +67,7 @@ with col2:
                  use_container_width=True, 
                  type="primary",
                  help="Return to main chat interface"):
-        st.switch_page("../betty_app.py")
+        st.switch_page("betty_app.py")
 
 with col3:
     st.markdown("""

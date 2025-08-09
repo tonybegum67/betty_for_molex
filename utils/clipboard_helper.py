@@ -112,103 +112,140 @@ def create_copy_button(text: str, button_id: str) -> bool:
     return False  # Since this is a JavaScript-only interaction
 
 
-def create_inline_copy_button(text: str, button_id: str, button_text: str = "📋") -> None:
+def create_inline_copy_button(text: str, button_id: str, button_text: str = "⧉") -> None:
     """
-    Creates a small inline copy button suitable for placement next to feedback buttons.
+    Creates a small inline copy button with overlapping squares icon like modern AI chat interfaces.
     
     Args:
         text: The text to copy to clipboard
         button_id: Unique identifier for the button
-        button_text: Text or emoji to display on the button
+        button_text: Text or icon to display on the button (default: overlapping squares)
     """
-    escaped_text = json.dumps(text)
+    # Ensure text is valid and escape for JavaScript
+    if not text or not text.strip():
+        st.warning("No content to copy")
+        return
+        
+    escaped_text = json.dumps(text.strip())
     
     copy_script = f"""
     <style>
     .copy-btn-{button_id} {{
         background-color: transparent;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 2px 6px;
+        border: 1px solid #d1d5db;
+        border-radius: 6px;
+        padding: 6px;
         cursor: pointer;
-        font-size: 16px;
-        transition: all 0.2s ease;
-        display: inline-block;
+        font-size: 14px;
+        transition: all 0.15s ease;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 28px;
+        height: 28px;
+        color: #6b7280;
+        position: relative;
+        margin-left: 8px;
     }}
     .copy-btn-{button_id}:hover {{
-        background-color: #f0f2f6;
-        transform: scale(1.05);
+        background-color: #f3f4f6;
+        border-color: #9ca3af;
+        color: #374151;
     }}
     .copy-btn-{button_id}.copied {{
-        background-color: #d4edda !important;
-        border-color: #28a745 !important;
+        background-color: #dcfce7 !important;
+        border-color: #16a34a !important;
+        color: #16a34a !important;
+    }}
+    .copy-btn-{button_id} svg {{
+        width: 14px;
+        height: 14px;
+        stroke: currentColor;
+        fill: none;
+        stroke-width: 2;
     }}
     </style>
     
     <button 
         class="copy-btn-{button_id}"
-        onclick="(function() {{
-            const text = {escaped_text};
-            const button = event.target;
-            
-            if (navigator.clipboard && window.isSecureContext) {{
-                navigator.clipboard.writeText(text).then(function() {{
-                    button.classList.add('copied');
-                    button.innerHTML = '✅';
-                    setTimeout(function() {{
-                        button.classList.remove('copied');
-                        button.innerHTML = '{button_text}';
-                    }}, 2000);
-                }}).catch(function(err) {{
-                    // Fallback method
-                    const textArea = document.createElement('textarea');
-                    textArea.value = text;
-                    textArea.style.position = 'fixed';
-                    textArea.style.opacity = '0';
-                    document.body.appendChild(textArea);
-                    textArea.select();
-                    try {{
-                        document.execCommand('copy');
-                        button.classList.add('copied');
-                        button.innerHTML = '✅';
-                        setTimeout(function() {{
-                            button.classList.remove('copied');
-                            button.innerHTML = '{button_text}';
-                        }}, 2000);
-                    }} catch (err) {{
-                        console.error('Copy failed:', err);
-                    }}
-                    document.body.removeChild(textArea);
-                }});
-            }} else {{
-                // Fallback for older browsers
-                const textArea = document.createElement('textarea');
-                textArea.value = text;
-                textArea.style.position = 'fixed';
-                textArea.style.opacity = '0';
-                document.body.appendChild(textArea);
-                textArea.select();
-                try {{
-                    document.execCommand('copy');
-                    button.classList.add('copied');
-                    button.innerHTML = '✅';
-                    setTimeout(function() {{
-                        button.classList.remove('copied');
-                        button.innerHTML = '{button_text}';
-                    }}, 2000);
-                }} catch (err) {{
-                    console.error('Copy failed:', err);
-                }}
-                document.body.removeChild(textArea);
-            }}
-        }})()"
-        title="Copy response to clipboard"
+        onclick="copyText_{button_id}()"
+        title="Copy to clipboard"
     >
-        {button_text}
+        <svg viewBox="0 0 24 24">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+        </svg>
     </button>
+    
+    <script>
+    function copyText_{button_id}() {{
+        const text = {escaped_text};
+        const button = document.querySelector('.copy-btn-{button_id}');
+        
+        // Ensure we can actually copy (text must be non-empty)
+        if (!text || text.trim() === '') {{
+            console.warn('No text to copy');
+            return;
+        }}
+        
+        // Use modern clipboard API if available
+        if (navigator.clipboard && window.isSecureContext) {{
+            navigator.clipboard.writeText(text).then(function() {{
+                showCopySuccess(button);
+            }}).catch(function(err) {{
+                console.error('Modern clipboard API failed:', err);
+                fallbackCopy_{button_id}(text, button);
+            }});
+        }} else {{
+            // Fallback for older browsers or non-secure contexts
+            fallbackCopy_{button_id}(text, button);
+        }}
+        
+        function showCopySuccess(button) {{
+            if (button) {{
+                button.classList.add('copied');
+                button.innerHTML = '<svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>';
+                setTimeout(function() {{
+                    button.classList.remove('copied');
+                    button.innerHTML = '<svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>';
+                }}, 1500);
+            }}
+        }}
+    }}
+    
+    function fallbackCopy_{button_id}(text, button) {{
+        const textArea = document.createElement('textarea');
+        textArea.value = text;
+        textArea.style.position = 'fixed';
+        textArea.style.left = '-999999px';
+        textArea.style.top = '-999999px';
+        textArea.style.opacity = '0';
+        document.body.appendChild(textArea);
+        textArea.focus();
+        textArea.select();
+        
+        try {{
+            const successful = document.execCommand('copy');
+            if (successful && button) {{
+                button.classList.add('copied');
+                button.innerHTML = '<svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>';
+                setTimeout(function() {{
+                    button.classList.remove('copied');
+                    button.innerHTML = '<svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>';
+                }}, 1500);
+            }} else {{
+                console.error('execCommand copy failed');
+            }}
+        }} catch (err) {{
+            console.error('Fallback copy failed:', err);
+        }}
+        
+        document.body.removeChild(textArea);
+    }}
+    </script>
     """
     
-    components.html(copy_script, height=30)
+    components.html(copy_script, height=36)
 
 
 def create_copy_code_button(code: str, language: str, button_id: str) -> None:

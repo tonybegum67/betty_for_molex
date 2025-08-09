@@ -398,17 +398,19 @@ Stakeholder accountability gaps
 Information dependency vulnerabilities
 
 Visual Communication Capabilities
-Create clear, informative diagrams using Mermaid syntax ONLY when users request visual elements using keywords like:
+Create diagrams using Mermaid syntax ONLY when users explicitly request visual elements using specific keywords such as:
 - Primary triggers: diagram, chart, graph, visual, flowchart, map, show, illustrate, visualize, draw
 - Strategic triggers: outcome mapping, tier structure, capability flow, stakeholder network, dependency map
 
-When triggered, create diagrams to illustrate:
+IMPORTANT: Do NOT create diagrams for regular strategic advice, outcome generation, or general questions. Only create diagrams when the user specifically asks for a visual representation.
+
+When diagram keywords are detected, create diagrams to illustrate:
 - Relationships between ideas, outcomes, and GPS tiers
 - Business capability and value stream connections
 - Stakeholder accountability networks
 - Information flow and dependency mapping
 
-Always use ```mermaid code blocks for diagrams.
+Always use ```mermaid code blocks for diagrams when requested.
 
 
 Rewrite each outcome statement to focus solely on the desired end state or result, eliminating any reference to:
@@ -502,7 +504,7 @@ def display_feedback_buttons(message_index: int, user_message: str, betty_respon
         st.caption("✅ Thank you for your feedback!")
         return
     
-    col1, col2, col3, col4 = st.columns([1, 1, 1, 7])
+    col1, col2, col3 = st.columns([0.8, 0.8, 7.4])
     
     with col1:
         if st.button("👍", key=f"thumbs_up_{message_index}", help="This response was helpful"):
@@ -548,14 +550,123 @@ def display_feedback_buttons(message_index: int, user_message: str, betty_respon
                         st.success("Thank you for the detailed feedback! This helps us improve Betty.")
             st.rerun()
     
-    with col3:
-        # Add copy button for Betty's responses using the clipboard helper
-        create_inline_copy_button(betty_response, f"copy_{message_index}", "📋 Copy")
+    # Copy button is now handled separately in the main chat display
 
 # --- Session State Initialization ---
 # (Moved earlier in the file to prevent AttributeError)
 
 # --- Chat Interface ---
+
+# Auto-scroll chat to bottom functionality
+st.markdown("""
+<script>
+// Global scroll state management
+window.bettyScrollState = {
+    isScrolling: false,
+    lastMessageCount: 0,
+    observer: null,
+    initialized: false
+};
+
+// Improved scroll function
+function scrollToBottom() {
+    if (window.bettyScrollState.isScrolling) {
+        return;
+    }
+    
+    window.bettyScrollState.isScrolling = true;
+    
+    // Use requestAnimationFrame for better performance
+    requestAnimationFrame(() => {
+        setTimeout(() => {
+            const scrollHeight = Math.max(
+                document.body.scrollHeight,
+                document.documentElement.scrollHeight
+            );
+            
+            window.scrollTo({
+                top: scrollHeight,
+                behavior: 'smooth'
+            });
+            
+            setTimeout(() => {
+                window.bettyScrollState.isScrolling = false;
+            }, 800);
+        }, 200);
+    });
+}
+
+// Check for new chat messages
+function checkForNewMessages() {
+    const chatMessages = document.querySelectorAll('[data-testid="stChatMessage"]');
+    const currentCount = chatMessages.length;
+    
+    if (currentCount > window.bettyScrollState.lastMessageCount) {
+        window.bettyScrollState.lastMessageCount = currentCount;
+        if (!window.bettyScrollState.isScrolling) {
+            scrollToBottom();
+        }
+    }
+}
+
+// Optimized MutationObserver
+function initializeScrollObserver() {
+    if (window.bettyScrollState.initialized) return;
+    
+    window.bettyScrollState.initialized = true;
+    
+    const observer = new MutationObserver(function(mutations) {
+        let hasNewContent = false;
+        
+        for (const mutation of mutations) {
+            if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
+                for (const node of mutation.addedNodes) {
+                    if (node.nodeType === 1) {
+                        // Check for chat messages specifically
+                        if (node.querySelector && (
+                            node.querySelector('[data-testid="stChatMessage"]') ||
+                            node.hasAttribute('data-testid') && 
+                            node.getAttribute('data-testid') === 'stChatMessage'
+                        )) {
+                            hasNewContent = true;
+                            break;
+                        }
+                    }
+                }
+                if (hasNewContent) break;
+            }
+        }
+        
+        if (hasNewContent) {
+            // Debounce rapid changes
+            clearTimeout(window.bettyScrollState.debounceTimeout);
+            window.bettyScrollState.debounceTimeout = setTimeout(() => {
+                checkForNewMessages();
+            }, 100);
+        }
+    });
+    
+    observer.observe(document.body, {
+        childList: true,
+        subtree: true
+    });
+    
+    window.bettyScrollState.observer = observer;
+    
+    // Initial check
+    setTimeout(() => {
+        checkForNewMessages();
+    }, 500);
+}
+
+// Initialize
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeScrollObserver);
+} else {
+    initializeScrollObserver();
+}
+</script>
+""", unsafe_allow_html=True)
 
 # Display chat messages from history
 for i, message in enumerate(st.session_state.messages):
@@ -569,10 +680,22 @@ for i, message in enumerate(st.session_state.messages):
         else:
             st.markdown(message["content"])
         
-        # Add feedback buttons for Betty's responses
-        if message["role"] == "assistant" and i > 0:  # Make sure there's a user message before this
-            user_message = st.session_state.messages[i-1]["content"]
-            display_feedback_buttons(i, user_message, message["content"])
+        # Add copy button and feedback buttons for Betty's responses
+        if message["role"] == "assistant":
+            # Always show copy button for assistant messages
+            col1, col2 = st.columns([1, 7])
+            with col1:
+                create_inline_copy_button(message["content"], f"copy_{i}")
+            
+            # Add feedback buttons - find the preceding user message
+            user_message = None
+            for j in range(i-1, -1, -1):  # Look backwards for the user message
+                if st.session_state.messages[j]["role"] == "user":
+                    user_message = st.session_state.messages[j]["content"]
+                    break
+            
+            if user_message:
+                display_feedback_buttons(i, user_message, message["content"])
 
 # Accept user input
 uploaded_file = st.file_uploader(
@@ -594,15 +717,12 @@ if st.session_state.messages and st.session_state.messages[-1]["role"] == "user"
     # Check if we already have a response for this message
     needs_response = True
     if len(st.session_state.messages) >= 2:
-        # If there's already an assistant response after this user message, don't process again
-        if len(st.session_state.messages) % 2 == 0:  # Even number means last was assistant
+        # Check if the second to last message was also from user (which would indicate we need to respond)
+        # or if we have an even number of messages (user-assistant pairs)
+        if len(st.session_state.messages) % 2 == 0:  # Even number means we just processed a response
             needs_response = False
     
     if needs_response:
-        # Display user message in chat message container
-        with st.chat_message("user"):
-            st.markdown(last_user_message)
-
         # Generate and display assistant response
         with st.chat_message("assistant"):
             message_placeholder = st.empty()
@@ -670,6 +790,21 @@ if st.session_state.messages and st.session_state.messages[-1]["role"] == "user"
 
         # Add assistant response to chat history
         st.session_state.messages.append({"role": "assistant", "content": full_response})
+        
+        # Force a scroll after the response is complete
+        st.markdown("""
+        <script>
+        // Trigger scroll for new response
+        setTimeout(() => {
+            if (window.bettyScrollState && typeof scrollToBottom === 'function') {
+                scrollToBottom();
+            }
+        }, 300);
+        </script>
+        """, unsafe_allow_html=True)
+        
+        # The MutationObserver will automatically handle scrolling for new messages
+        # Copy button and feedback buttons will be displayed when the message history is rendered
 
 # --- Sidebar for Controls ---
 with st.sidebar:
