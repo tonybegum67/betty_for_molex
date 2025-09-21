@@ -1,0 +1,18 @@
+,,,,,,,,,
+,PROJECT IMPACT INDEX - Percent of Total Potential Impact Points,,,,,,,,
+,,,,,,,,,
+,,,M2X,,,,,,
+,Current Projects and Demand,WGT,Part Classification ,Part Centric / Cognite AI,Master Data Nexus,Resin Selection Tool,Charted Drawings,Digital EBOM - MBOM,UBOM Phase One
+,Pain Points,40.0%,53.3%,65.6%,62.2%,43.3%,54.4%,68.9%,44.4%
+,Capability Features,60.0%,51.9%,37.0%,77.8%,59.3%,14.8%,77.8%,22.2%
+,Impact Index,100.0%,105.2%,102.6%,140.0%,102.6%,69.3%,146.7%,66.7%
+,,,,,,,,,
+,Z-Score,,0.02,-0.07,1.14,-0.07,-1.15,1.36,-1.23
+,,,,,,,,,
+,,,,,,,,,
+,Future Projects,WGT,Centralized Data Mgmt & Gov ,Digital Thread Integration Hub,Intelligent Knowledge Management & Insight Platform,Enhanced Semantic Search & Intelligence Assistant    ,Real-Time BOM Analytics & Cost Intelligence,Design Cost Optimizer,
+,Pain Points,40.0%,24%,26%,20%,15%,20%,20%,
+,Capability Features,60.0%,59.3%,77.8%,70.4%,55.6%,51.9%,40.7%,
+,Impact Index,100.0%,83%,104%,91%,70%,72%,60%,
+,,,,,,,,,
+,Z-Score,,0.21,1.50,0.69,-0.62,-0.52,-1.25,

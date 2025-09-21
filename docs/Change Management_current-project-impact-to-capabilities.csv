@@ -1,0 +1,32 @@
+,,,,,,,,,,,,,,,,
+,,,,,,,,Projects Statistics ,,,,,,,,
+,,,,,,,,Q1,Q2,Q3,Q4,Mean ,Std Dev,,,
+,,Total Impact Points (2's and 3's),19,0,0,0,,0,0,4.75,19,4.75,9.50,,,
+,,Percent Total Potential Impact Points ,70.4%,0.0%,0.0%,0.0%,,,,,,,,,,
+,,Percent 3's,33.3%,0.0%,0.0%,0.0%,,,,,,,,,,
+,,Percent 2's,55.6%,0.0%,0.0%,0.0%,,,,,,,,,,
+,,Z-Score,1.50,-0.50,-0.50,-0.50,,,,,,,,,,
+,,Quartile,Q4,Q1,Q1,Q1,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,Capability Features,PNC Revamp,,,,,Total Impact Points,Percent '3s',Percent '2s',Z Score,Quartile ,,Capability,Impact (0–3),Explanation
+,L2,Product Part Change Management,3,0,0,0,,3,25.0%,0.0%,1.17,Q3,,Product Change Control Management (L2),3,"PCN Revamp targets the core PCN lifecycle and processes across Molex sites, directly improving end-to-end change control effectiveness."
+Governance,L3,Product Change Control Execution,3,0,0,0,,3,25.0%,0.0%,1.17,Q3,,Product Change Control Execution (L3),3,"Project updates workflow, decision tree and on‑time implementation targets—directly improving execution readiness and delivery."
+,L4,Adaptive Product Change Control,2,0,0,0,,2,0.0%,25.0%,-0.33,Q1,,Adaptive Product Change Control (L4),2,"Revamp creates more flexible decisioning and templates, partially enabling adaptive behavior but full adaptivity needs broader rollout and governance."
+,L4,Product Change Control Competency Development,1,0,0,0,,1,0.0%,0.0%,-1.83,Q1,,Product Change Control Competency Development (L4),1,"Some role changes and new workflows imply training needs, but the project does not primarily deliver learning programs."
+,L4,Scalable Product Change Control Management,2,0,0,0,,2,0.0%,25.0%,-0.33,Q1,,Scalable Product Change Control (L4),2,"Streamlined workflow and NetWeaver integration increase scalability potential, though further platform and global rollout work remains."
+,L4,Proactive Product Change Control Risk Effects & Analysis,2,0,0,0,,2,0.0%,25.0%,-0.33,Q1,,Proactive Product Change Risk Effects & Analysis (L4),2,"Improved decision tree and data visibility help detect risks earlier, but advanced risk analytics are not fully in scope."
+Collaboration,L3,Collaborative Product Change Control,2,0,0,0,,2,0.0%,25.0%,-0.33,Q1,,Collaborative Product Change Control (L3),2,"Better workflows and supplier sync improve cross‑functional contribution, though full seamless collaboration requires additional integrations."
+,L4,Stakeholder Change Control Impact Analysis,2,0,0,0,,2,0.0%,25.0%,-0.33,Q1,,Stakeholder Change Control Impact Analysis (L4),2,"Enhanced CFD templates and stakeholder sync increase impact assessment capability, but deeper stakeholder tooling/analytics remain future work."
+,L4,Change Control Notifications & Communications,3,0,0,0,,3,25.0%,0.0%,1.17,Q3,,Change Control Notifications & Communications (L4),3,"Modified CFD templates, clearer communications and focus on customer messaging are central objectives—direct, high impact."
+Traceability,L3,Change Control Lifecycle Traceability,3,0,0,0,,3,25.0%,0.0%,1.17,Q3,,Change Control Life‑cycle Traceability (L3),3,NetWeaver alignment and a streamlined PCN workflow materially improve end‑to‑end traceability and status tracking.
+Optionality,L3,Shared Product Part Change Control Coordination,2,0,0,0,,2,0.0%,25.0%,-0.33,Q1,,Shared Product Part Change Control Coordination (L3),2,"Process refinements and supplier sync reduce coordination issues for shared parts, though configuration/version controls may need further enhancements."
+,L3,Real-Time Change Information Visibility,3,0,0,0,,3,25.0%,0.0%,1.17,Q3,,Real‑Time Change Control Information (L3),3,The project’s NetWeaver integration and planned status improvements (and later self‑service) directly increase real‑time visibility for stakeholders.
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,Pain Point Statistics,,,,,,,,
+,,,,,,,,,,,Q1,2.0,,,,
+,,,,,,,,2.22,Mean,,Q2,2.0,,,,
+,,,,,,,,0.67,Std Dev,,Q3,3.0,,,,
+,,,,,,,,,,,Q4,3.0,,,,

@@ -1,0 +1,48 @@
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,Projects Statistics ,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,Q1,Q2,Q3,Q4,Mean ,Std Dev,,,,,,,,,,,,,,,,
+,,Total Impact Points (2's and 3's),26,24,21,19,16,11,11,6,15,9,9,21,8,24,23,,10,16,22,26,16.20,6.81,,,,,,,,,,,,,,,,
+,,Percent Total Potential Impact Points ,86.7%,80.0%,70.0%,63.3%,53.3%,36.7%,36.7%,20.0%,50.0%,30.0%,30.0%,70.0%,26.7%,80.0%,76.7%,,,,,,,,,,,,,,,,,,,,,,,
+,,Percent 3's,60.0%,40.0%,30.0%,10.0%,20.0%,10.0%,10.0%,0.0%,30.0%,10.0%,10.0%,30.0%,0.0%,40.0%,30.0%,,,,,,,,,,,,,,,,,,,,,,,
+,,Percent 2's,40.0%,60.0%,60.0%,80.0%,50.0%,40.0%,40.0%,30.0%,30.0%,30.0%,30.0%,60.0%,40.0%,60.0%,70.0%,,,,,,,,,,,,,,,,,,,,,,,
+,,Z-Score,1.44,1.15,0.71,0.41,-0.03,-0.76,-0.76,-1.50,-0.18,-1.06,-1.06,0.71,-1.20,1.15,1.00,,,,,,,,,,,,,,,,,,,,,,,
+,,Quartile,Q4,Q4,Q3,Q3,Q2,Q2,Q2,Q1,Q2,Q1,Q1,Q3,Q1,#N/A,Q4,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Capability Features,Global Change Framework ,Decision Rights and Governance,Intergrated Readiness Gates,Quality Compliance Integration,Role-Specific Notifications & Experience   ,Closed-Loop Feedback,Extended Enterprise Collaboration (Suppliers/Partners),Configuration & Variant Management Maturity,Seamless Propagation at Right Effectivity,Customer Feedback Integration,Early Warning & Monitoring,Real-Time Impact Visibility,Institutional Knowledge Reuse,Single Source of Truth (SSOT),Digital Thread Traceability,,Total Impact Points,Percent '3s',Percent '2s',Z Score,Quartile ,,,,,,,,,,,,,,,,,
+,L2,Product Part Change Management,3,3,3,3,2,2,2,2,3,2,2,3,2,3,3,,38,53.3%,46.7%,1.94,Q4,,,,,,,,,,,,,,,,,
+Governance,L3,Product Change Control Execution,3,2,3,2,2,2,1,1,3,1,2,2,1,3,2,,30,26.7%,46.7%,0.53,Q3,,,,,,,,,,,,,,,,,
+,L4,Adaptive Product Change Control,3,3,3,2,2,1,1,1,2,1,1,2,1,2,2,,27,20.0%,40.0%,0.00,Q2,,,,,,,,,,,,,,,,,
+,L4,Scalable Product Change Control Management,3,3,2,1,2,1,1,0,1,1,1,1,1,2,2,,22,13.3%,26.7%,-0.88,Q1,,,,,,,,,,,,,,,,,
+,L4,Product Change Control Competency Development,3,3,2,2,1,1,2,2,3,1,1,2,1,3,3,,30,33.3%,33.3%,0.53,Q3,,,,,,,,,,,,,,,,,
+,L4,Proactive Product Change Control Risk Effects & Analysis,2,2,2,2,1,3,1,2,2,3,3,2,2,2,2,,31,20.0%,66.7%,0.71,Q4,,,,,,,,,,,,,,,,,
+Collaboration,L3,Collaborative Product Change Control,2,2,1,2,3,2,3,1,1,2,1,2,1,2,2,,27,13.3%,53.3%,0.00,Q2,,,,,,,,,,,,,,,,,
+,L4,Stakeholder Change Control Impact Analysis,2,2,2,2,2,2,2,1,1,2,2,3,2,2,2,,29,6.7%,80.0%,0.35,Q3,,,,,,,,,,,,,,,,,
+,L4,Change Control Notifications & Communications,2,2,2,2,3,1,2,1,1,1,1,3,1,2,2,,26,13.3%,46.7%,-0.18,Q2,,,,,,,,,,,,,,,,,
+Traceability,L3,Change Control Lifecycle Traceability,3,2,2,2,1,1,1,1,2,1,1,2,2,3,3,,27,20.0%,40.0%,0.00,Q2,,,,,,,,,,,,,,,,,
+Optionality,L3,Shared Product Part Change Control Coordination,1,1,1,1,0,1,0,3,2,0,0,1,1,1,2,,15,6.7%,13.3%,-2.12,Q1,,Change Management Capabilities (082625),Global Change Framework,Decision Rights & Governance,Integrated Readiness Gates,Quality Compliance Integration,Role-Specific Notifications & Experience,Closed-Loop Feedback,Extended Enterprise Collaboration,Configuration & Variant Management Maturity,Seamless Propagation at Right Effectivity,Customer Feedback Integration,Early Warning & Monitoring,Real-Time Impact Visibility,Institutional Knowledge Reuse,Single Source of Truth (SSOT),Digital Thread Traceability
+,L3,Real-Time Change Information Visibility,2,1,1,1,2,1,1,0,1,1,1,3,2,3,2,,22,13.3%,26.7%,-0.88,Q1,,L2 Product Change Control Management (Master),3,3,3,3,2,2,2,2,3,2,2,3,2,3,3
+,,,,,,,,,,,,,,,,,,,,,,,,,L3 Product Change Control Execution,3,2,3,2,2,2,1,1,3,1,2,2,1,3,2
+,,,,,,,,,,,,,,,,,,,,,,,,,L4 Adaptive Product Change Control,3,3,3,2,2,1,1,1,2,1,1,2,1,2,2
+,,,,,,,,,,,,,,,,,,,Pain Point Statistics,,,,,,L4 Product Change Control Competency Development,3,3,2,1,2,1,1,0,1,1,1,1,1,2,2
+,,,,,,,,,,,,,,,,,,,,,,Q1,25.0,,L4 Scalable Product Change Control Management,3,3,2,2,1,1,2,2,3,1,1,2,1,3,3
+,,,,,,,,,,,,,,,,,,,27.00,Mean,,Q2,27.0,,L4 Proactive Product Change Control Risk Effects & Analysis,2,2,2,2,1,3,1,2,2,3,3,2,2,2,2
+,,,,,,,,,,,,,,,,,,,5.67,Std Dev,,Q3,30.0,,L3 Collaborative Product Change Control,2,2,1,2,3,2,3,1,1,2,1,2,1,2,2
+,,,,,,,,,,,,,,,,,,,,,,Q4,38.0,,L4 Stakeholder Change Control Impact Analysis,2,2,2,2,2,2,2,1,1,2,2,3,2,2,2
+,,,,,,,,,,,,,,,,,,,,,,,,,L4 Change Control Notifications & Communications,2,2,2,2,3,1,2,1,1,1,1,3,1,2,2
+,,,,,,,,,,,,,,,,,,,,,,,,,L3 Change Control Lifecycle Traceability,3,2,2,2,1,1,1,1,2,1,1,2,2,3,3
+,,,,,,,,,,,,,,,,,,,,,,,,,L3 Shared Product Part Change Control Coordination,1,1,1,1,0,1,0,3,2,0,0,1,1,1,2
+,,,,,,,,,,,,,,,,,,,,,,,,,L3 Real-Time Change Control Information,2,1,1,1,2,1,1,0,1,1,1,3,2,3,2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,Guidance notes,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,"High-leverage foundations: Global Change Framework, Decision Rights, SSOT, Digital Thread, and Effectivity Propagation show the strongest, broad-based uplift across governance, scalability, traceability, and information visibility.",,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,"Collaboration enablers: Extended Enterprise, Role-Specific Notifications, Real-Time Impact Visibility directly improve stakeholder acknowledgment and impact evaluation.",,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,"Risk/quality feeders: Early Warning, Customer Feedback Integration, and Quality Compliance drive earlier detection, better prioritization, and audit-ready execution.",,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,"If you want, I can:",,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,"Add per-cell rationale comments,",,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,"Rank projects by total “capability lift,” or",,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,Convert this into a roadmap with dependencies and quick wins.,,,,,,,,,,,,,,,
