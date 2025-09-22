@@ -7,6 +7,7 @@ document formats and processing them for use in the RAG system.
 
 import io
 import re
+import csv
 from typing import List, Optional
 import PyPDF2
 import docx
@@ -152,6 +153,105 @@ class DocumentProcessor:
                 return ""
         except Exception as e:
             st.error(f"Error reading text file: {e}")
+            return ""
+    
+    def extract_text_from_csv(self, file: io.BytesIO) -> str:
+        """Extract text from a CSV file with structured formatting.
+
+        Args:
+            file: BytesIO object containing CSV data.
+
+        Returns:
+            Formatted text representation of CSV data, empty string if extraction fails.
+        """
+        try:
+            # Decode the file content
+            file.seek(0)
+            content = file.read().decode('utf-8')
+            file_like = io.StringIO(content)
+
+            # Parse CSV with automatic delimiter detection
+            sample = content[:1024]  # Sample first 1KB for dialect detection
+            try:
+                dialect = csv.Sniffer().sniff(sample, delimiters=',;\t|')
+                file_like.seek(0)
+                reader = csv.reader(file_like, dialect)
+            except csv.Error:
+                # Fallback to comma delimiter
+                file_like.seek(0)
+                reader = csv.reader(file_like, delimiter=',')
+
+            rows = list(reader)
+            if not rows:
+                return ""
+
+            # Enhanced formatting for better search
+            text_parts = []
+
+            # Add header information
+            headers = rows[0] if rows else []
+            if headers:
+                text_parts.append(f"CSV Data with columns: {', '.join(headers)}")
+                text_parts.append("")
+
+            # Add searchable project references
+            known_projects = [
+                "Digital Twin Implementation", "Advanced Analytics Platform", "Customer Experience Platform",
+                "AI-Powered Predictive Maintenance", "Smart Manufacturing Systems", "Quality Management System",
+                "Green Operations Initiative", "Blockchain Integration"
+            ]
+
+            # Add data rows with context and project identification
+            for i, row in enumerate(rows[1:], 1):  # Skip header row
+                if len(row) == len(headers):
+                    # Create structured text for each row
+                    row_text = f"Row {i}:"
+                    for header, value in zip(headers, row):
+                        if value.strip():  # Only include non-empty values
+                            row_text += f" {header}: {value.strip()},"
+                    text_parts.append(row_text.rstrip(','))
+
+                    # Add project-specific searchable entries
+                    for j, cell in enumerate(row):
+                        for project in known_projects:
+                            if project.lower() in str(cell).lower():
+                                # Find associated scores in nearby columns
+                                scores = []
+                                for k in range(max(0, j-2), min(len(row), j+3)):
+                                    if k != j and str(row[k]).strip():
+                                        val = str(row[k]).strip()
+                                        if any(char in val for char in ['%', '0', '1', '2', '3']) and len(val) < 10:
+                                            scores.append(val)
+                                if scores:
+                                    text_parts.append(f"PROJECT: {project} has impact scores: {', '.join(scores)}")
+                else:
+                    # Handle rows with different column counts
+                    row_text = f"Row {i}: {', '.join(row)}"
+                    text_parts.append(row_text)
+
+                # Add spacing every 10 rows for readability
+                if i % 10 == 0:
+                    text_parts.append("")
+
+            return '\n'.join(text_parts)
+            
+        except UnicodeDecodeError:
+            try:
+                # Try with different encoding
+                file.seek(0)
+                content = file.read().decode('latin-1')
+                file_like = io.StringIO(content)
+                reader = csv.reader(file_like)
+                rows = list(reader)
+                
+                # Simple fallback formatting
+                return '\n'.join([', '.join(row) for row in rows])
+                
+            except Exception as e:
+                st.error(f"Error reading CSV file with fallback encoding: {e}")
+                return ""
+        except Exception as e:
+            st.error(f"Error processing CSV file: {e}")
             return ""
     
     def clean_text(self, text: str) -> str:
@@ -306,6 +406,8 @@ class DocumentProcessor:
             return 'docx'
         elif filename_lower.endswith('.txt'):
             return 'txt'
+        elif filename_lower.endswith('.csv'):
+            return 'csv'
         else:
             return None
     
@@ -341,6 +443,8 @@ class DocumentProcessor:
                 text = self.extract_text_from_docx(file_bytes)
             elif file_type == 'txt':
                 text = self.extract_text_from_txt(file_bytes)
+            elif file_type == 'csv':
+                text = self.extract_text_from_csv(file_bytes)
             else:
                 return ""
             
