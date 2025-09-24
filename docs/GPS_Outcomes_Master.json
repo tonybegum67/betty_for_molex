@@ -1,0 +1,3234 @@
+{
+  "gps_version": "4.0",
+  "destination": "Customers always choose Molex first",
+  "created_date": "2025-09-23",
+  "consolidation_info": {
+    "source_files": [
+      "GPS_Outcomes_Complete_Betty_Ready.txt",
+      "MINI_GPS_Outcomes-Master.json"
+    ],
+    "consolidation_date": "2025-09-23"
+  },
+  "metadata": {
+    "complete_file": true,
+    "not_a_template": true,
+    "includes_highest_order": true,
+    "total_outcomes": 288
+  },
+  "outcomes": [
+    {
+      "outcome_id": "ACQ-001",
+      "cluster": "Acquire Customer",
+      "cluster_id": "ACQ",
+      "highest_order_outcome": "The most desired companies eagerly become our customers",
+      "tier_level": 1,
+      "outcome_text": "Our brand is immediately recognized and revered",
+      "parent_id": null,
+      "children_ids": [
+        "ACQ-002",
+        "ACQ-003"
+      ]
+    },
+    {
+      "outcome_id": "ACQ-002",
+      "cluster": "Acquire Customer",
+      "cluster_id": "ACQ",
+      "highest_order_outcome": "The most desired companies eagerly become our customers",
+      "tier_level": 2,
+      "outcome_text": "We redefined the market norms with a principle, not policy led approach",
+      "parent_id": "ACQ-001",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "ACQ-003",
+      "cluster": "Acquire Customer",
+      "cluster_id": "ACQ",
+      "highest_order_outcome": "The most desired companies eagerly become our customers",
+      "tier_level": 2,
+      "outcome_text": "Our wildly audacious ambitions captivte the global markets, our customers & stakeholders",
+      "parent_id": "ACQ-001",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "ACQ-004",
+      "cluster": "Acquire Customer",
+      "cluster_id": "ACQ",
+      "highest_order_outcome": "Customers sell themselves on Molex",
+      "tier_level": 1,
+      "outcome_text": "Molex product, technology and experience innovations are well-known",
+      "parent_id": null,
+      "children_ids": []
+    },
+    {
+      "outcome_id": "ACQ-005",
+      "cluster": "Acquire Customer",
+      "cluster_id": "ACQ",
+      "highest_order_outcome": "Customers sell themselves on Molex",
+      "tier_level": 1,
+      "outcome_text": "Most most compelling value proposition is offered",
+      "parent_id": null,
+      "children_ids": [
+        "ACQ-006",
+        "ACQ-008"
+      ]
+    },
+    {
+      "outcome_id": "ACQ-006",
+      "cluster": "Acquire Customer",
+      "cluster_id": "ACQ",
+      "highest_order_outcome": "Customers sell themselves on Molex",
+      "tier_level": 2,
+      "outcome_text": "Customers have an intimate understanding of our products and technology",
+      "parent_id": "ACQ-005",
+      "children_ids": [
+        "ACQ-007"
+      ]
+    },
+    {
+      "outcome_id": "ACQ-007",
+      "cluster": "Acquire Customer",
+      "cluster_id": "ACQ",
+      "highest_order_outcome": "Customers sell themselves on Molex",
+      "tier_level": 3,
+      "outcome_text": "Our customers effortlessly find the most appropriate products based on attributes",
+      "parent_id": "ACQ-006",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "ACQ-008",
+      "cluster": "Acquire Customer",
+      "cluster_id": "ACQ",
+      "highest_order_outcome": "Customers sell themselves on Molex",
+      "tier_level": 2,
+      "outcome_text": "The business value of our solutions are clear and impressive",
+      "parent_id": "ACQ-005",
+      "children_ids": [
+        "ACQ-009"
+      ]
+    },
+    {
+      "outcome_id": "ACQ-009",
+      "cluster": "Acquire Customer",
+      "cluster_id": "ACQ",
+      "highest_order_outcome": "Customers sell themselves on Molex",
+      "tier_level": 3,
+      "outcome_text": "Our products stand head-and-shoulders above any competitor",
+      "parent_id": "ACQ-008",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "ACQ-010",
+      "cluster": "Acquire Customer",
+      "cluster_id": "ACQ",
+      "highest_order_outcome": "Customers sell themselves on Molex",
+      "tier_level": 1,
+      "outcome_text": "Our sales teams build confidence and excitement about Molex",
+      "parent_id": null,
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CXP-011",
+      "cluster": "Customer Experience",
+      "cluster_id": "CXP",
+      "highest_order_outcome": "Customers delight in an electrifying experience that they never imagined possible",
+      "tier_level": 1,
+      "outcome_text": "It's easy for customers to do business with us",
+      "parent_id": null,
+      "children_ids": [
+        "CXP-012",
+        "CXP-013",
+        "CXP-014"
+      ]
+    },
+    {
+      "outcome_id": "CXP-012",
+      "cluster": "Customer Experience",
+      "cluster_id": "CXP",
+      "highest_order_outcome": "Customers delight in an electrifying experience that they never imagined possible",
+      "tier_level": 2,
+      "outcome_text": "Every interaction is personalized to our customer's preferences",
+      "parent_id": "CXP-011",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CXP-013",
+      "cluster": "Customer Experience",
+      "cluster_id": "CXP",
+      "highest_order_outcome": "Customers delight in an electrifying experience that they never imagined possible",
+      "tier_level": 2,
+      "outcome_text": "Interactions occur naturally and seamlessly",
+      "parent_id": "CXP-011",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CXP-014",
+      "cluster": "Customer Experience",
+      "cluster_id": "CXP",
+      "highest_order_outcome": "Customers delight in an electrifying experience that they never imagined possible",
+      "tier_level": 2,
+      "outcome_text": "Customers serve themselves",
+      "parent_id": "CXP-011",
+      "children_ids": [
+        "CXP-015"
+      ]
+    },
+    {
+      "outcome_id": "CXP-015",
+      "cluster": "Customer Experience",
+      "cluster_id": "CXP",
+      "highest_order_outcome": "Customers delight in an electrifying experience that they never imagined possible",
+      "tier_level": 3,
+      "outcome_text": "Real-time customer-driven product creation occurs",
+      "parent_id": "CXP-014",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CXP-016",
+      "cluster": "Customer Experience",
+      "cluster_id": "CXP",
+      "highest_order_outcome": "Customers delight in an electrifying experience that they never imagined possible",
+      "tier_level": 1,
+      "outcome_text": "An unbelievable level of service is delivered to every customer",
+      "parent_id": null,
+      "children_ids": [
+        "CXP-017",
+        "CXP-018",
+        "CXP-019"
+      ]
+    },
+    {
+      "outcome_id": "CXP-017",
+      "cluster": "Customer Experience",
+      "cluster_id": "CXP",
+      "highest_order_outcome": "Customers delight in an electrifying experience that they never imagined possible",
+      "tier_level": 2,
+      "outcome_text": "Customers instantaneously have information that is relevant to their needs",
+      "parent_id": "CXP-016",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CXP-018",
+      "cluster": "Customer Experience",
+      "cluster_id": "CXP",
+      "highest_order_outcome": "Customers delight in an electrifying experience that they never imagined possible",
+      "tier_level": 2,
+      "outcome_text": "Effective responses to critical needs are made immediately",
+      "parent_id": "CXP-016",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CXP-019",
+      "cluster": "Customer Experience",
+      "cluster_id": "CXP",
+      "highest_order_outcome": "Customers delight in an electrifying experience that they never imagined possible",
+      "tier_level": 2,
+      "outcome_text": "Customer issues are resolved before they occur",
+      "parent_id": "CXP-016",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CXP-020",
+      "cluster": "Customer Experience",
+      "cluster_id": "CXP",
+      "highest_order_outcome": "Customers delight in an electrifying experience that they never imagined possible",
+      "tier_level": 1,
+      "outcome_text": "Each customer feels they are most important to Molex",
+      "parent_id": null,
+      "children_ids": [
+        "CXP-021",
+        "CXP-022",
+        "CXP-023",
+        "CXP-024"
+      ]
+    },
+    {
+      "outcome_id": "CXP-021",
+      "cluster": "Customer Experience",
+      "cluster_id": "CXP",
+      "highest_order_outcome": "Customers delight in an electrifying experience that they never imagined possible",
+      "tier_level": 2,
+      "outcome_text": "We listen and actively respond to feedback from customers",
+      "parent_id": "CXP-020",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CXP-022",
+      "cluster": "Customer Experience",
+      "cluster_id": "CXP",
+      "highest_order_outcome": "Customers delight in an electrifying experience that they never imagined possible",
+      "tier_level": 2,
+      "outcome_text": "Customers share the right to make product development decisions",
+      "parent_id": "CXP-020",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CXP-023",
+      "cluster": "Customer Experience",
+      "cluster_id": "CXP",
+      "highest_order_outcome": "Customers delight in an electrifying experience that they never imagined possible",
+      "tier_level": 2,
+      "outcome_text": "We work closely with customers to achieve our mutual goals",
+      "parent_id": "CXP-020",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CXP-024",
+      "cluster": "Customer Experience",
+      "cluster_id": "CXP",
+      "highest_order_outcome": "Customers delight in an electrifying experience that they never imagined possible",
+      "tier_level": 2,
+      "outcome_text": "Actively engage customers to gain their ideas and perspectives",
+      "parent_id": "CXP-020",
+      "children_ids": [
+        "CXP-025"
+      ]
+    },
+    {
+      "outcome_id": "CXP-025",
+      "cluster": "Customer Experience",
+      "cluster_id": "CXP",
+      "highest_order_outcome": "Customers delight in an electrifying experience that they never imagined possible",
+      "tier_level": 3,
+      "outcome_text": "Customers openly collaborate with us",
+      "parent_id": "CXP-024",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CXP-026",
+      "cluster": "Customer Experience",
+      "cluster_id": "CXP",
+      "highest_order_outcome": "Customers delight in an electrifying experience that they never imagined possible",
+      "tier_level": 3,
+      "outcome_text": "Customers eagerly want to speak with us",
+      "parent_id": null,
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CXP-027",
+      "cluster": "Customer Experience",
+      "cluster_id": "CXP",
+      "highest_order_outcome": "Customers delight in an electrifying experience that they never imagined possible",
+      "tier_level": 1,
+      "outcome_text": "Customers have a deep and trusted relationship with us",
+      "parent_id": null,
+      "children_ids": [
+        "CXP-028",
+        "CXP-029"
+      ]
+    },
+    {
+      "outcome_id": "CXP-028",
+      "cluster": "Customer Experience",
+      "cluster_id": "CXP",
+      "highest_order_outcome": "Customers delight in an electrifying experience that they never imagined possible",
+      "tier_level": 2,
+      "outcome_text": "There is fully transparency in our relationship with customers",
+      "parent_id": "CXP-027",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CXP-029",
+      "cluster": "Customer Experience",
+      "cluster_id": "CXP",
+      "highest_order_outcome": "Customers delight in an electrifying experience that they never imagined possible",
+      "tier_level": 2,
+      "outcome_text": "Customers are dealt with in the most respectful manner",
+      "parent_id": "CXP-027",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-030",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 1,
+      "outcome_text": "We ignite bold innovation with our customers to see what hasn’t been seen before",
+      "parent_id": null,
+      "children_ids": [
+        "PRD-031",
+        "PRD-032"
+      ]
+    },
+    {
+      "outcome_id": "PRD-031",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 2,
+      "outcome_text": "Gaps in the market are identified",
+      "parent_id": "PRD-030",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-032",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 2,
+      "outcome_text": "We offer insights and ideas that go well beyond what customers expect",
+      "parent_id": "PRD-030",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-033",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 1,
+      "outcome_text": "Products are flawlessly designed with unmatched speed",
+      "parent_id": null,
+      "children_ids": [
+        "PRD-034",
+        "PRD-038",
+        "PRD-043",
+        "PRD-047",
+        "PRD-058"
+      ]
+    },
+    {
+      "outcome_id": "PRD-034",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 2,
+      "outcome_text": "We lead in developing and applying new technologies to products",
+      "parent_id": "PRD-033",
+      "children_ids": [
+        "PRD-035",
+        "PRD-036",
+        "PRD-037"
+      ]
+    },
+    {
+      "outcome_id": "PRD-035",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 3,
+      "outcome_text": "Our engineering knowledge and thought leadership is fully leveraged",
+      "parent_id": "PRD-034",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-036",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 3,
+      "outcome_text": "The technical risks of the product are confidently mitigated",
+      "parent_id": "PRD-034",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-037",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 3,
+      "outcome_text": "Leading edge technologies are discovered and maintained",
+      "parent_id": "PRD-034",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-038",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 2,
+      "outcome_text": "The most accurate prototypes are rapidly created and validated",
+      "parent_id": "PRD-033",
+      "children_ids": [
+        "PRD-039",
+        "PRD-040",
+        "PRD-041",
+        "PRD-042"
+      ]
+    },
+    {
+      "outcome_id": "PRD-040",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 3,
+      "outcome_text": "Customer are directly involved with responsibilities for prototyping solutions",
+      "parent_id": "PRD-038",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-041",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 3,
+      "outcome_text": "Projects are well managed and launched without issue",
+      "parent_id": "PRD-038",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-042",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 3,
+      "outcome_text": "The design and manufacturing of a product happens concurrently",
+      "parent_id": "PRD-038",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-043",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 2,
+      "outcome_text": "We accurately foresee our customer's needs before they know they have them",
+      "parent_id": "PRD-033",
+      "children_ids": [
+        "PRD-044",
+        "PRD-045",
+        "PRD-046"
+      ]
+    },
+    {
+      "outcome_id": "PRD-044",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 3,
+      "outcome_text": "We are intimately involved in developing our customer's product roadmaps",
+      "parent_id": "PRD-043",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-045",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 3,
+      "outcome_text": "A deep understanding of our customer's business and industry",
+      "parent_id": "PRD-043",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-046",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 3,
+      "outcome_text": "We attentively listen to our customers",
+      "parent_id": "PRD-043",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-047",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 2,
+      "outcome_text": "Product development capabilities are eagerly embraced and adopted by the organization",
+      "parent_id": "PRD-033",
+      "children_ids": [
+        "PRD-048",
+        "PRD-052",
+        "PRD-057"
+      ]
+    },
+    {
+      "outcome_id": "PRD-048",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 3,
+      "outcome_text": "GPD leadership is highly respected and engaged by the business",
+      "parent_id": "PRD-047",
+      "children_ids": [
+        "PRD-049",
+        "PRD-050",
+        "PRD-051"
+      ]
+    },
+    {
+      "outcome_id": "PRD-049",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 4,
+      "outcome_text": "Product development practices are unsurpassed in creating competitive advantage",
+      "parent_id": "PRD-048",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-050",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 4,
+      "outcome_text": "The role of GPD is clearly understood and embraced",
+      "parent_id": "PRD-048",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-051",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 4,
+      "outcome_text": "GPD is clearly and advantageously positioned in the broader enterprise",
+      "parent_id": "PRD-048",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-052",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 3,
+      "outcome_text": "Robust and effective PD capabilities are designed built and deployed to the BUs",
+      "parent_id": "PRD-047",
+      "children_ids": [
+        "PRD-053",
+        "PRD-056"
+      ]
+    },
+    {
+      "outcome_id": "PRD-053",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 4,
+      "outcome_text": "The product development process is thoroughly understood",
+      "parent_id": "PRD-052",
+      "children_ids": [
+        "PRD-054",
+        "PRD-055"
+      ]
+    },
+    {
+      "outcome_id": "PRD-054",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 5,
+      "outcome_text": "The role and value of each stakeholder is clearly defined and understood.",
+      "parent_id": "PRD-053",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-055",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 5,
+      "outcome_text": "Knowledge about every stakeholder is continuously updated and immediately accessible",
+      "parent_id": "PRD-053",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-056",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 4,
+      "outcome_text": "The economic impact of each capability is understood",
+      "parent_id": "PRD-052",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-057",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 3,
+      "outcome_text": "The value of the product development capabilities is clearly recognized",
+      "parent_id": "PRD-047",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-058",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 2,
+      "outcome_text": "We reach ever increasing levels of success in designing products",
+      "parent_id": "PRD-033",
+      "children_ids": [
+        "PRD-059",
+        "PRD-064",
+        "PRD-071",
+        "PRD-078"
+      ]
+    },
+    {
+      "outcome_id": "PRD-059",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 3,
+      "outcome_text": "Molex, our customers and partners are entwined together",
+      "parent_id": "PRD-058",
+      "children_ids": [
+        "PRD-060",
+        "PRD-061",
+        "PRD-062",
+        "PRD-063"
+      ]
+    },
+    {
+      "outcome_id": "PRD-060",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 4,
+      "outcome_text": "Customers have real-time visibility into the development progress",
+      "parent_id": "PRD-059",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-061",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 4,
+      "outcome_text": "We are actively engaged early in our customers design cycle",
+      "parent_id": "PRD-059",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-062",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 4,
+      "outcome_text": "Engineers are seamlessly embedded with customers to collaborate across the ecosystem",
+      "parent_id": "PRD-059",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-063",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 4,
+      "outcome_text": "Product design team members work in close proximity to each other",
+      "parent_id": "PRD-059",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-064",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 3,
+      "outcome_text": "The freshest insights drive unexpected design breakthroughs",
+      "parent_id": "PRD-058",
+      "children_ids": [
+        "PRD-065",
+        "PRD-067",
+        "PRD-068",
+        "PRD-070"
+      ]
+    },
+    {
+      "outcome_id": "PRD-065",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 4,
+      "outcome_text": "Nontraditional role and perspectives are infused in the design process",
+      "parent_id": "PRD-064",
+      "children_ids": [
+        "PRD-066"
+      ]
+    },
+    {
+      "outcome_id": "PRD-066",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 5,
+      "outcome_text": "Conventional hierarchies are removed to unlock new modes of insight and interaction",
+      "parent_id": "PRD-065",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-067",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 4,
+      "outcome_text": "The customer's experience and journey leads the development of new products and solutions",
+      "parent_id": "PRD-064",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-068",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 4,
+      "outcome_text": "Development explores beyond immediate commercial demands",
+      "parent_id": "PRD-064",
+      "children_ids": [
+        "PRD-069"
+      ]
+    },
+    {
+      "outcome_id": "PRD-069",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 5,
+      "outcome_text": "Constraints of the day-to-day business pressures don't exist",
+      "parent_id": "PRD-068",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-070",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 4,
+      "outcome_text": "Empathy for the customer is reflected in the design of their solution",
+      "parent_id": "PRD-064",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-071",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 3,
+      "outcome_text": "Digital asset are effectively leveraged",
+      "parent_id": "PRD-058",
+      "children_ids": [
+        "PRD-072",
+        "PRD-073"
+      ]
+    },
+    {
+      "outcome_id": "PRD-072",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 4,
+      "outcome_text": "The performance of a product's design is easily tested and validated",
+      "parent_id": "PRD-071",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-073",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 4,
+      "outcome_text": "Existing designs are appropriately reused when possible",
+      "parent_id": "PRD-071",
+      "children_ids": [
+        "PRD-074",
+        "PRD-075"
+      ]
+    },
+    {
+      "outcome_id": "PRD-074",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 5,
+      "outcome_text": "The inventory of current parts are easily identified and applied",
+      "parent_id": "PRD-073",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-075",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 5,
+      "outcome_text": "Scalable design are leveraged across common customer needs",
+      "parent_id": "PRD-073",
+      "children_ids": [
+        "PRD-076",
+        "PRD-077"
+      ]
+    },
+    {
+      "outcome_id": "PRD-076",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 6,
+      "outcome_text": "Existing products are configured and customized on demand",
+      "parent_id": "PRD-075",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-077",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 6,
+      "outcome_text": "Intelligent and insightful interactions with current products occur",
+      "parent_id": "PRD-075",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-078",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 3,
+      "outcome_text": "The design process is effectively performed",
+      "parent_id": "PRD-058",
+      "children_ids": [
+        "PRD-079",
+        "PRD-080",
+        "PRD-081",
+        "PRD-082"
+      ]
+    },
+    {
+      "outcome_id": "PRD-079",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 4,
+      "outcome_text": "Engineers own product design and delivery outcomes",
+      "parent_id": "PRD-078",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-080",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 4,
+      "outcome_text": "Project rigor scales to match risk and opportunity",
+      "parent_id": "PRD-078",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-081",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 4,
+      "outcome_text": "The iteration of design is valued and effectively managed",
+      "parent_id": "PRD-078",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PRD-082",
+      "cluster": "Products",
+      "cluster_id": "PRD",
+      "highest_order_outcome": "We preempt the market and competition with the most sought-after products",
+      "tier_level": 4,
+      "outcome_text": "Product designs leverage our manufacturing capabilities",
+      "parent_id": "PRD-078",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PTR-083",
+      "cluster": "Partners",
+      "cluster_id": "PTR",
+      "highest_order_outcome": "A robust and  value generating network of partners exist",
+      "tier_level": 1,
+      "outcome_text": "Partners help to create the most compelling products",
+      "parent_id": null,
+      "children_ids": [
+        "PTR-084",
+        "PTR-085"
+      ]
+    },
+    {
+      "outcome_id": "PTR-084",
+      "cluster": "Partners",
+      "cluster_id": "PTR",
+      "highest_order_outcome": "A robust and  value generating network of partners exist",
+      "tier_level": 2,
+      "outcome_text": "Partner competencies blend with ours to create unique synergies",
+      "parent_id": "PTR-083",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PTR-085",
+      "cluster": "Partners",
+      "cluster_id": "PTR",
+      "highest_order_outcome": "A robust and  value generating network of partners exist",
+      "tier_level": 2,
+      "outcome_text": "Everyone understands is aligned to the customer's goal",
+      "parent_id": "PTR-083",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PTR-086",
+      "cluster": "Partners",
+      "cluster_id": "PTR",
+      "highest_order_outcome": "A robust and  value generating network of partners exist",
+      "tier_level": 1,
+      "outcome_text": "A robust and  value generating network of partners exist",
+      "parent_id": null,
+      "children_ids": [
+        "PTR-087"
+      ]
+    },
+    {
+      "outcome_id": "PTR-087",
+      "cluster": "Partners",
+      "cluster_id": "PTR",
+      "highest_order_outcome": "A robust and  value generating network of partners exist",
+      "tier_level": 2,
+      "outcome_text": "Each partner works as a seamless and natural extension of the other and Molex",
+      "parent_id": "PTR-086",
+      "children_ids": [
+        "PTR-088",
+        "PTR-091",
+        "PTR-092",
+        "PTR-093",
+        "PTR-094"
+      ]
+    },
+    {
+      "outcome_id": "PTR-088",
+      "cluster": "Partners",
+      "cluster_id": "PTR",
+      "highest_order_outcome": "A robust and  value generating network of partners exist",
+      "tier_level": 3,
+      "outcome_text": "A strong, unbreakable bond of trust exists",
+      "parent_id": "PTR-087",
+      "children_ids": [
+        "PTR-089",
+        "PTR-090"
+      ]
+    },
+    {
+      "outcome_id": "PTR-089",
+      "cluster": "Partners",
+      "cluster_id": "PTR",
+      "highest_order_outcome": "A robust and  value generating network of partners exist",
+      "tier_level": 4,
+      "outcome_text": "Partners are honest and respectful of each other",
+      "parent_id": "PTR-088",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PTR-090",
+      "cluster": "Partners",
+      "cluster_id": "PTR",
+      "highest_order_outcome": "A robust and  value generating network of partners exist",
+      "tier_level": 4,
+      "outcome_text": "Each partner is committed to the success of the other",
+      "parent_id": "PTR-088",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PTR-091",
+      "cluster": "Partners",
+      "cluster_id": "PTR",
+      "highest_order_outcome": "A robust and  value generating network of partners exist",
+      "tier_level": 3,
+      "outcome_text": "Information and knowledge is seamlessly shared",
+      "parent_id": "PTR-087",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PTR-092",
+      "cluster": "Partners",
+      "cluster_id": "PTR",
+      "highest_order_outcome": "A robust and  value generating network of partners exist",
+      "tier_level": 3,
+      "outcome_text": "Open and effective collaboration occurs with our partners",
+      "parent_id": "PTR-087",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PTR-093",
+      "cluster": "Partners",
+      "cluster_id": "PTR",
+      "highest_order_outcome": "A robust and  value generating network of partners exist",
+      "tier_level": 3,
+      "outcome_text": "A shared commitment of mutual transformation exists",
+      "parent_id": "PTR-087",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "PTR-094",
+      "cluster": "Partners",
+      "cluster_id": "PTR",
+      "highest_order_outcome": "A robust and  value generating network of partners exist",
+      "tier_level": 3,
+      "outcome_text": "Partner share in the same vision and values",
+      "parent_id": "PTR-087",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "TLT-095",
+      "cluster": "Talent",
+      "cluster_id": "TLT",
+      "highest_order_outcome": "Our workforce is the envy of the industry and competition",
+      "tier_level": 1,
+      "outcome_text": "The most elite talent from top-tier organizations work for Molex",
+      "parent_id": null,
+      "children_ids": []
+    },
+    {
+      "outcome_id": "TLT-096",
+      "cluster": "Talent",
+      "cluster_id": "TLT",
+      "highest_order_outcome": "Our workforce is the envy of the industry and competition",
+      "tier_level": 1,
+      "outcome_text": "Nobody ever wants to leave Molex",
+      "parent_id": null,
+      "children_ids": []
+    },
+    {
+      "outcome_id": "BPR-097",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 1,
+      "outcome_text": "We are responsible stewards of the company's resources",
+      "parent_id": null,
+      "children_ids": [
+        "BPR-098",
+        "BPR-104",
+        "BPR-105"
+      ]
+    },
+    {
+      "outcome_id": "BPR-098",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 2,
+      "outcome_text": "Resources are aligned & focused on the needs and priorities of the business",
+      "parent_id": "BPR-097",
+      "children_ids": [
+        "BPR-099",
+        "BPR-100",
+        "BPR-101",
+        "BPR-102",
+        "BPR-103"
+      ]
+    },
+    {
+      "outcome_id": "BPR-099",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 3,
+      "outcome_text": "Everyone embraces our vision, strategies and goals",
+      "parent_id": "BPR-098",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "BPR-100",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 3,
+      "outcome_text": "Rallying around the outcomes that drives value for the business prevails across the organization",
+      "parent_id": "BPR-098",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "BPR-101",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 3,
+      "outcome_text": "We confidently say no to ideas or actions that don't address the critical business needs",
+      "parent_id": "BPR-098",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "BPR-102",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 3,
+      "outcome_text": "The economic impact of every customer segment is known and prioritized",
+      "parent_id": "BPR-098",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "BPR-103",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 3,
+      "outcome_text": "Teams have the right perspectives, skills, knowledge and experience to perform",
+      "parent_id": "BPR-098",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "BPR-104",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 2,
+      "outcome_text": "Rules and procedures are use judiciously",
+      "parent_id": "BPR-097",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "BPR-105",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 2,
+      "outcome_text": "Compliance to regulatory requirements is always met",
+      "parent_id": "BPR-097",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "BPR-106",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 1,
+      "outcome_text": "Appropriate funding is always available to support the business",
+      "parent_id": null,
+      "children_ids": [
+        "BPR-107",
+        "BPR-109"
+      ]
+    },
+    {
+      "outcome_id": "BPR-107",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 2,
+      "outcome_text": "Operating expenses are prudently managed to support the business",
+      "parent_id": "BPR-106",
+      "children_ids": [
+        "BPR-108"
+      ]
+    },
+    {
+      "outcome_id": "BPR-108",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 3,
+      "outcome_text": "Work is effectively complete with internal skills and knowledge",
+      "parent_id": "BPR-107",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "BPR-109",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 2,
+      "outcome_text": "Capital invested provides returns far beyond what is required",
+      "parent_id": "BPR-106",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "BPR-110",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 1,
+      "outcome_text": "The way we work is continually optimized",
+      "parent_id": null,
+      "children_ids": [
+        "BPR-111",
+        "BPR-115",
+        "BPR-119"
+      ]
+    },
+    {
+      "outcome_id": "BPR-111",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 2,
+      "outcome_text": "The business flows uninterrupted across the customer's journey",
+      "parent_id": "BPR-110",
+      "children_ids": [
+        "BPR-112",
+        "BPR-113",
+        "BPR-114"
+      ]
+    },
+    {
+      "outcome_id": "BPR-112",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 3,
+      "outcome_text": "Operating entities  dynamically integrate and work together to improve the system",
+      "parent_id": "BPR-111",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "BPR-113",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 3,
+      "outcome_text": "The extended enterprise operates on a unified digital backbone",
+      "parent_id": "BPR-111",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "BPR-114",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 3,
+      "outcome_text": "An accurate and complete understanding of the value chain exists",
+      "parent_id": "BPR-111",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "BPR-115",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 2,
+      "outcome_text": "The most reliable and repeatable processes exist",
+      "parent_id": "BPR-110",
+      "children_ids": [
+        "BPR-116",
+        "BPR-117",
+        "BPR-118"
+      ]
+    },
+    {
+      "outcome_id": "BPR-116",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 3,
+      "outcome_text": "Non-value activities are relentlessly eliminated",
+      "parent_id": "BPR-115",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "BPR-117",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 3,
+      "outcome_text": "Quality across the business is never compromised",
+      "parent_id": "BPR-115",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "BPR-118",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 3,
+      "outcome_text": "Best practices are consistently harmonized and used at scale",
+      "parent_id": "BPR-115",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "BPR-119",
+      "cluster": "Business Process",
+      "cluster_id": "BPR",
+      "highest_order_outcome": "Operations  easily perform at an unsurpassed level of excellence",
+      "tier_level": 2,
+      "outcome_text": "Performance to our goals is consistently and accurately measured",
+      "parent_id": "BPR-110",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-120",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 1,
+      "outcome_text": "The organization is nimble and confidently responds to change",
+      "parent_id": null,
+      "children_ids": [
+        "CLT-121",
+        "CLT-123",
+        "CLT-124",
+        "CLT-126",
+        "CLT-127",
+        "CLT-128",
+        "CLT-129",
+        "CLT-131",
+        "CLT-132",
+        "CLT-133",
+        "CLT-134",
+        "CLT-136"
+      ]
+    },
+    {
+      "outcome_id": "CLT-121",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 2,
+      "outcome_text": "Associates work together as a strong and cohesive team",
+      "parent_id": "CLT-120",
+      "children_ids": [
+        "CLT-122"
+      ]
+    },
+    {
+      "outcome_id": "CLT-122",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Employees willingly share knowledge and experiences to learn from each other",
+      "parent_id": "CLT-121",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-123",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Associates trust and respect each other",
+      "parent_id": "CLT-120",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-124",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Individuals act as owners and are accountable for their actions",
+      "parent_id": "CLT-120",
+      "children_ids": [
+        "CLT-125"
+      ]
+    },
+    {
+      "outcome_id": "CLT-125",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "Every associate understands their abilities and how to best use them",
+      "parent_id": "CLT-124",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-126",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "Employees clearly know there role and responsibilities",
+      "parent_id": "CLT-120",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-127",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Employees welcome constructive feedback that aids their effectiveness",
+      "parent_id": "CLT-120",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-128",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Collaboration occurs naturally among employees and teams",
+      "parent_id": "CLT-120",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-129",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 2,
+      "outcome_text": "Discipline and fortitude to change exists throughout the organization",
+      "parent_id": "CLT-120",
+      "children_ids": [
+        "CLT-130"
+      ]
+    },
+    {
+      "outcome_id": "CLT-130",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Every employee eagerly learns and adapts to think and work in new ways",
+      "parent_id": "CLT-129",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-131",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Employees thrive in ambiguity",
+      "parent_id": "CLT-120",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-132",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "An entrepreneurial spirit exists in every employee",
+      "parent_id": "CLT-120",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-133",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "A heightened sense of urgency and responsiveness occurs for critical issues",
+      "parent_id": "CLT-120",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-134",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 2,
+      "outcome_text": "Talent fluidly moves and aligns in real time to the greatest value creating priorities",
+      "parent_id": "CLT-120",
+      "children_ids": [
+        "CLT-135"
+      ]
+    },
+    {
+      "outcome_id": "CLT-135",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "The organization is lean and void of unnecessary hierarchy and bureaucracy",
+      "parent_id": "CLT-134",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-136",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "The best skills, experience and attitudes are quickly brought together",
+      "parent_id": "CLT-120",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-137",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 1,
+      "outcome_text": "Employees continually discover and reach new levels of potential",
+      "parent_id": null,
+      "children_ids": [
+        "CLT-138",
+        "CLT-149"
+      ]
+    },
+    {
+      "outcome_id": "CLT-138",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 2,
+      "outcome_text": "Employees achieve their career aspirations",
+      "parent_id": "CLT-137",
+      "children_ids": [
+        "CLT-139",
+        "CLT-140",
+        "CLT-141",
+        "CLT-142",
+        "CLT-146"
+      ]
+    },
+    {
+      "outcome_id": "CLT-139",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Employees seek role that accentuate their talents and contributions",
+      "parent_id": "CLT-138",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-140",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Every employee is in a position that leverages their unique value and strength",
+      "parent_id": "CLT-138",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-141",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Employees Mutually Support Each Other to Grow and Succeed",
+      "parent_id": "CLT-138",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-142",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Individuals are always prepared to do their jobs",
+      "parent_id": "CLT-138",
+      "children_ids": [
+        "CLT-143",
+        "CLT-144",
+        "CLT-145"
+      ]
+    },
+    {
+      "outcome_id": "CLT-143",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "Employees have the tools and resources they need to excel",
+      "parent_id": "CLT-142",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-144",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "The skills and competencies of employees are continually enhanced",
+      "parent_id": "CLT-142",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-145",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "We are constantly learning what's new and relevant",
+      "parent_id": "CLT-142",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-146",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Employees Always Know How They Are Performing",
+      "parent_id": "CLT-138",
+      "children_ids": [
+        "CLT-147",
+        "CLT-148"
+      ]
+    },
+    {
+      "outcome_id": "CLT-147",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "There is Continuous Feedback on Milestones and Performance",
+      "parent_id": "CLT-146",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-148",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "Clear Performance Expectations are Established",
+      "parent_id": "CLT-146",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-149",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 2,
+      "outcome_text": "The perspectives of individual employees are respected and valued",
+      "parent_id": "CLT-137",
+      "children_ids": [
+        "CLT-150",
+        "CLT-151",
+        "CLT-152"
+      ]
+    },
+    {
+      "outcome_id": "CLT-150",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Employees have a voice and are free to speak up about any issue",
+      "parent_id": "CLT-149",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-151",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Employees Positively Influence Each Other Regardless of Position",
+      "parent_id": "CLT-149",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-152",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Leaders constantly exchange thoughts and ideas with employees",
+      "parent_id": "CLT-149",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-153",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 1,
+      "outcome_text": "Employees act out of conviction for their belief in Molex",
+      "parent_id": null,
+      "children_ids": [
+        "CLT-154",
+        "CLT-158",
+        "CLT-163",
+        "CLT-171"
+      ]
+    },
+    {
+      "outcome_id": "CLT-154",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 2,
+      "outcome_text": "Every employee feels their well-being is important to the company",
+      "parent_id": "CLT-153",
+      "children_ids": [
+        "CLT-155",
+        "CLT-156",
+        "CLT-157"
+      ]
+    },
+    {
+      "outcome_id": "CLT-155",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Every employee is able to live the life they choose",
+      "parent_id": "CLT-154",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-156",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "A balance between work and life is maintained",
+      "parent_id": "CLT-154",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-157",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "The financial needs of the employee are met",
+      "parent_id": "CLT-154",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-158",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 2,
+      "outcome_text": "Leaders are admired, trusted and respected",
+      "parent_id": "CLT-153",
+      "children_ids": [
+        "CLT-159",
+        "CLT-160",
+        "CLT-161",
+        "CLT-162"
+      ]
+    },
+    {
+      "outcome_id": "CLT-159",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Dealings with employees are always conducted with full transparency",
+      "parent_id": "CLT-158",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-160",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "The highest degree of Integrity is always demonstrated",
+      "parent_id": "CLT-158",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-161",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Humbleness and vulnerability are easily recognized traits",
+      "parent_id": "CLT-158",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-162",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Empathy for the circumstances of others is demonstrated and encouraged",
+      "parent_id": "CLT-158",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-163",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 2,
+      "outcome_text": "Employees always get the right things done at the right time in the right way",
+      "parent_id": "CLT-153",
+      "children_ids": [
+        "CLT-164",
+        "CLT-165",
+        "CLT-166",
+        "CLT-170"
+      ]
+    },
+    {
+      "outcome_id": "CLT-164",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Our employees are obsessed in delighting customers",
+      "parent_id": "CLT-163",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-165",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "We always do the right thing even when it's difficult or uncomfortable",
+      "parent_id": "CLT-163",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-166",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Everyone demonstrates the company's higher purpose",
+      "parent_id": "CLT-163",
+      "children_ids": [
+        "CLT-167",
+        "CLT-168",
+        "CLT-169"
+      ]
+    },
+    {
+      "outcome_id": "CLT-167",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "Diversity, equality and inclusion is practiced and celebrated",
+      "parent_id": "CLT-166",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-168",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "Individuals apply their abilities to help others improve their lives",
+      "parent_id": "CLT-166",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-169",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "Our actions are always based out of respect for others",
+      "parent_id": "CLT-166",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-170",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "We always do what we say we're going to do",
+      "parent_id": "CLT-163",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-171",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 2,
+      "outcome_text": "Every employee feels they are part of something extraordinary",
+      "parent_id": "CLT-153",
+      "children_ids": [
+        "CLT-172",
+        "CLT-173",
+        "CLT-174",
+        "CLT-175"
+      ]
+    },
+    {
+      "outcome_id": "CLT-172",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Every employee is respected for their inherent potential and contributions",
+      "parent_id": "CLT-171",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-173",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Employees have a clear sense of purpose and value",
+      "parent_id": "CLT-171",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-174",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Employee feel they are engaged in meaningful work",
+      "parent_id": "CLT-171",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-175",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Behaviors that disrupt the status quo are celebrated",
+      "parent_id": "CLT-171",
+      "children_ids": [
+        "CLT-176",
+        "CLT-177"
+      ]
+    },
+    {
+      "outcome_id": "CLT-176",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "An individual's dedication and contributions are recognized and rewarded",
+      "parent_id": "CLT-175",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-177",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "Longer-term thinking is rewarded more than short-term results",
+      "parent_id": "CLT-175",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-178",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 1,
+      "outcome_text": "The most innovative ideas and solutions are created",
+      "parent_id": null,
+      "children_ids": [
+        "CLT-179",
+        "CLT-181",
+        "CLT-182",
+        "CLT-183",
+        "CLT-184",
+        "CLT-186",
+        "CLT-187",
+        "CLT-188",
+        "CLT-190",
+        "CLT-191",
+        "CLT-192"
+      ]
+    },
+    {
+      "outcome_id": "CLT-179",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 2,
+      "outcome_text": "Every employee is liberated to see what can be possible",
+      "parent_id": "CLT-178",
+      "children_ids": [
+        "CLT-180"
+      ]
+    },
+    {
+      "outcome_id": "CLT-180",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Goals and aspirations push us well beyond the boundary of convention and comfort",
+      "parent_id": "CLT-179",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-181",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Employees believe it is possible to achieve the loftiest of ambitions",
+      "parent_id": "CLT-178",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-182",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "An intolerance for the status quo is pervasive across the organization",
+      "parent_id": "CLT-178",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-183",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Unencumbered thinking about what is possible exists throughout the company",
+      "parent_id": "CLT-178",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-184",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 2,
+      "outcome_text": "Employees are encouraged and supported to be curious and innovative new idea",
+      "parent_id": "CLT-178",
+      "children_ids": [
+        "CLT-185"
+      ]
+    },
+    {
+      "outcome_id": "CLT-185",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Experimentation to uncover new opportunities is is encouraged and expected",
+      "parent_id": "CLT-184",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-186",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Employees are given time and resources to be innovative",
+      "parent_id": "CLT-178",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-187",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Individual's creativity extends beyond what they ever imagined",
+      "parent_id": "CLT-178",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-188",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "It's safe to explore and express the unconventional",
+      "parent_id": "CLT-178",
+      "children_ids": [
+        "CLT-189"
+      ]
+    },
+    {
+      "outcome_id": "CLT-189",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "Bold thinking with a business outcome mindset is well practiced",
+      "parent_id": "CLT-188",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-190",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "Failures are considered constructive and fuel for organizational learning",
+      "parent_id": "CLT-178",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-191",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "Inherent risks of new ideas are properly managed and accepted",
+      "parent_id": "CLT-178",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-192",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "Conventional delivery pressures to not exist",
+      "parent_id": "CLT-178",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-193",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 1,
+      "outcome_text": "Confident and consistently accurate decisions are quickly made",
+      "parent_id": null,
+      "children_ids": [
+        "CLT-194",
+        "CLT-196",
+        "CLT-198",
+        "CLT-199",
+        "CLT-201",
+        "CLT-202",
+        "CLT-203",
+        "CLT-204",
+        "CLT-206",
+        "CLT-207",
+        "CLT-209",
+        "CLT-211",
+        "CLT-212",
+        "CLT-214",
+        "CLT-215",
+        "CLT-216",
+        "CLT-218"
+      ]
+    },
+    {
+      "outcome_id": "CLT-194",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 2,
+      "outcome_text": "Data is complete and accurate",
+      "parent_id": "CLT-193",
+      "children_ids": [
+        "CLT-195"
+      ]
+    },
+    {
+      "outcome_id": "CLT-195",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Effective data ownership and stewardship exists",
+      "parent_id": "CLT-194",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-196",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "The integrity of data is never compromised",
+      "parent_id": "CLT-193",
+      "children_ids": [
+        "CLT-197"
+      ]
+    },
+    {
+      "outcome_id": "CLT-197",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "There is a single source of the truth for data",
+      "parent_id": "CLT-196",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-198",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "Effective governance enables data to be leveraged to it fullest potential",
+      "parent_id": "CLT-193",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-199",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 2,
+      "outcome_text": "Decisions are properly vetted",
+      "parent_id": "CLT-193",
+      "children_ids": [
+        "CLT-200"
+      ]
+    },
+    {
+      "outcome_id": "CLT-200",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Customer feedback fully integrated into all decisions",
+      "parent_id": "CLT-199",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-201",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Decision based on long-term impact over short-term urgency",
+      "parent_id": "CLT-193",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-202",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Decisions and their related actions are respectfully challenged",
+      "parent_id": "CLT-193",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-203",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Viable decision alternate course of action are identified and considered",
+      "parent_id": "CLT-193",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-204",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "The business value of a potential action is known",
+      "parent_id": "CLT-193",
+      "children_ids": [
+        "CLT-205"
+      ]
+    },
+    {
+      "outcome_id": "CLT-206",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "Risk is prudently assessed, understood and accepted",
+      "parent_id": "CLT-193",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-207",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 2,
+      "outcome_text": "The most informed, intelligent and complete insights are created",
+      "parent_id": "CLT-193",
+      "children_ids": [
+        "CLT-208"
+      ]
+    },
+    {
+      "outcome_id": "CLT-208",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "The inherent knowledge of people and the institution is effectively leveraged",
+      "parent_id": "CLT-207",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-209",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Data is proactively gathered, assimilated",
+      "parent_id": "CLT-193",
+      "children_ids": [
+        "CLT-210"
+      ]
+    },
+    {
+      "outcome_id": "CLT-210",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "We continuously learn from our experiences",
+      "parent_id": "CLT-209",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-211",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "There is instant access to institutional knowledge asset and expertise",
+      "parent_id": "CLT-193",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-212",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "Information &knowledge is valued and freely share across the enterprise",
+      "parent_id": "CLT-193",
+      "children_ids": [
+        "CLT-213"
+      ]
+    },
+    {
+      "outcome_id": "CLT-213",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 5,
+      "outcome_text": "Data is fully transparent between internal teams and external stakeholders",
+      "parent_id": "CLT-212",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-214",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 5,
+      "outcome_text": "Ubiquitous access to accurate data exists across the organization",
+      "parent_id": "CLT-193",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-215",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 5,
+      "outcome_text": "Clear, honest and timely communication exists across the enterprise",
+      "parent_id": "CLT-193",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-216",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 2,
+      "outcome_text": "Employees closest to the point of business impact are empowered to make decisions",
+      "parent_id": "CLT-193",
+      "children_ids": [
+        "CLT-217"
+      ]
+    },
+    {
+      "outcome_id": "CLT-217",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Employees are trusted to do the right things",
+      "parent_id": "CLT-216",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-218",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "A clear sense of accountability is instilled and demonstrated by decision makers",
+      "parent_id": "CLT-193",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-219",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 1,
+      "outcome_text": "The full potential of technologies used across the enterprise is realized",
+      "parent_id": null,
+      "children_ids": [
+        "CLT-220"
+      ]
+    },
+    {
+      "outcome_id": "CLT-220",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 2,
+      "outcome_text": "Stakeholders are awestruck with value of our technology products and platform",
+      "parent_id": "CLT-219",
+      "children_ids": [
+        "CLT-221"
+      ]
+    },
+    {
+      "outcome_id": "CLT-221",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Revolutionary ways to leverage technology are continuously discovered",
+      "parent_id": "CLT-220",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-222",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "The business value of an initiative is clearly articulated",
+      "parent_id": null,
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-223",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 2,
+      "outcome_text": "Technology capabilities are effectively leveraged and adopted by the business",
+      "parent_id": null,
+      "children_ids": [
+        "CLT-224"
+      ]
+    },
+    {
+      "outcome_id": "CLT-224",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "The best skills and knowledge is leveraged to meet our needs",
+      "parent_id": "CLT-223",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-225",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "End users are intimately involved in designing solutions",
+      "parent_id": null,
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-226",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "People are well prepared and ready for change in their jobs",
+      "parent_id": null,
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-227",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 2,
+      "outcome_text": "The most beneficial technology solutions are effectively developed",
+      "parent_id": null,
+      "children_ids": [
+        "CLT-228"
+      ]
+    },
+    {
+      "outcome_id": "CLT-228",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Applications are developed, integrated and deployed in the best way possible",
+      "parent_id": "CLT-227",
+      "children_ids": [
+        "CLT-229"
+      ]
+    },
+    {
+      "outcome_id": "CLT-229",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "Solutions are configured within the inherent capabilities of our tech",
+      "parent_id": "CLT-228",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-230",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "Requirements are accurate, well defined and communicated",
+      "parent_id": null,
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-231",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "Solution designs are compliant and compatible to technology standards",
+      "parent_id": null,
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-232",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "The most effective development and integration methods are employed",
+      "parent_id": null,
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-233",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "The viability of new ideas are rapidly prototyped and tested",
+      "parent_id": null,
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-234",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 4,
+      "outcome_text": "Platform, architecture and infrastructure is effectively leveraged",
+      "parent_id": null,
+      "children_ids": [
+        "CLT-235"
+      ]
+    },
+    {
+      "outcome_id": "CLT-235",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 5,
+      "outcome_text": "A strong and scalable technical foundation exists",
+      "parent_id": "CLT-234",
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-236",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 5,
+      "outcome_text": "The enterprise architecture is seamless and scales to support the business",
+      "parent_id": null,
+      "children_ids": []
+    },
+    {
+      "outcome_id": "CLT-237",
+      "cluster": "Culture",
+      "cluster_id": "CLT",
+      "highest_order_outcome": "Employees are inspired, engaged and enabled to do extraordinary things",
+      "tier_level": 3,
+      "outcome_text": "Systems and applications are effortlessly updated with new capabilities",
+      "parent_id": null,
+      "children_ids": []
+    },
+    {
+      "outcome_id": "GPS-000",
+      "cluster": "General",
+      "cluster_id": "GEN",
+      "highest_order_outcome": "Highest Order Cluster Outcome",
+      "tier_level": 1,
+      "outcome_text": "Highest Order Cluster Outcome",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "General > Highest Order Cluster Outcome"
+    },
+    {
+      "outcome_id": "GPS-001",
+      "cluster": "BOM & PIM",
+      "cluster_id": "B&P",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 1,
+      "outcome_text": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area"
+    },
+    {
+      "outcome_id": "GPS-028",
+      "cluster": "CHANGE CONTROL MANAGEMENT",
+      "cluster_id": "CCM",
+      "highest_order_outcome": "Change Control management works for all our businesses & Industries",
+      "tier_level": 1,
+      "outcome_text": "Change Control management works for all our businesses & Industries",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "CHANGE CONTROL MANAGEMENT > Change Control management works for all our businesses & Industries"
+    },
+    {
+      "outcome_id": "GPS-029",
+      "cluster": "CHANGE CONTROL MANAGEMENT",
+      "cluster_id": "CCM",
+      "highest_order_outcome": "Lessons learned from previous changes are considered and applied where applicable",
+      "tier_level": 1,
+      "outcome_text": "Lessons learned from previous changes are considered and applied where applicable",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "CHANGE CONTROL MANAGEMENT > Lessons learned from previous changes are considered and applied where applicable"
+    },
+    {
+      "outcome_id": "GPS-031",
+      "cluster": "CHANGE CONTROL MANAGEMENT",
+      "cluster_id": "CCM",
+      "highest_order_outcome": "Adaptive change control propels product evolution forward effortlessly",
+      "tier_level": 1,
+      "outcome_text": "Adaptive change control propels product evolution forward effortlessly",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "CHANGE CONTROL MANAGEMENT > Adaptive change control propels product evolution forward effortlessly"
+    },
+    {
+      "outcome_id": "GPS-032",
+      "cluster": "CHANGE CONTROL MANAGEMENT",
+      "cluster_id": "CCM",
+      "highest_order_outcome": "Change readiness is verified with timely complete, connected documentation",
+      "tier_level": 1,
+      "outcome_text": "Change readiness is verified with timely complete, connected documentation",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "CHANGE CONTROL MANAGEMENT > Change readiness is verified with timely complete, connected documentation"
+    },
+    {
+      "outcome_id": "GPS-037",
+      "cluster": "CHANGE CONTROL MANAGEMENT",
+      "cluster_id": "CCM",
+      "highest_order_outcome": "A global uniform core change framework is tailored to meet the needs of the business",
+      "tier_level": 1,
+      "outcome_text": "A global uniform core change framework is tailored to meet the needs of the business",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "CHANGE CONTROL MANAGEMENT > A global uniform core change framework is tailored to meet the needs of the business"
+    },
+    {
+      "outcome_id": "GPS-039",
+      "cluster": "CHANGE CONTROL MANAGEMENT",
+      "cluster_id": "CCM",
+      "highest_order_outcome": "The change process is seamlessly integrated into every functional group",
+      "tier_level": 1,
+      "outcome_text": "The change process is seamlessly integrated into every functional group",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "CHANGE CONTROL MANAGEMENT > The change process is seamlessly integrated into every functional group"
+    },
+    {
+      "outcome_id": "GPS-042",
+      "cluster": "CHANGE CONTROL MANAGEMENT",
+      "cluster_id": "CCM",
+      "highest_order_outcome": "External partners collaborate seamlessly in shared change processes.",
+      "tier_level": 1,
+      "outcome_text": "External partners collaborate seamlessly in shared change processes.",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "CHANGE CONTROL MANAGEMENT > External partners collaborate seamlessly in shared change processes."
+    },
+    {
+      "outcome_id": "GPS-044",
+      "cluster": "CHANGE CONTROL MANAGEMENT",
+      "cluster_id": "CCM",
+      "highest_order_outcome": "Accurate and complete notifications of change are effectively communicated to appropriate groups",
+      "tier_level": 1,
+      "outcome_text": "Accurate and complete notifications of change are effectively communicated to appropriate groups",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "CHANGE CONTROL MANAGEMENT > Accurate and complete notifications of change are effectively communicated to appropriate groups"
+    },
+    {
+      "outcome_id": "GPS-046",
+      "cluster": "CHANGE CONTROL MANAGEMENT",
+      "cluster_id": "CCM",
+      "highest_order_outcome": "Production feedback reliably drives timely design and process updates.",
+      "tier_level": 1,
+      "outcome_text": "Production feedback reliably drives timely design and process updates.",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "CHANGE CONTROL MANAGEMENT > Production feedback reliably drives timely design and process updates."
+    },
+    {
+      "outcome_id": "GPS-048",
+      "cluster": "CHANGE CONTROL MANAGEMENT",
+      "cluster_id": "CCM",
+      "highest_order_outcome": "Full awareness to \"reason for change\" to all functional groups exists",
+      "tier_level": 1,
+      "outcome_text": "Full awareness to \"reason for change\" to all functional groups exists",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "CHANGE CONTROL MANAGEMENT > Full awareness to \"reason for change\" to all functional groups exists"
+    },
+    {
+      "outcome_id": "GPS-049",
+      "cluster": "CHANGE CONTROL MANAGEMENT",
+      "cluster_id": "CCM",
+      "highest_order_outcome": "Changes to product parts with shared features are masterfully handled",
+      "tier_level": 1,
+      "outcome_text": "Changes to product parts with shared features are masterfully handled",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "CHANGE CONTROL MANAGEMENT > Changes to product parts with shared features are masterfully handled"
+    },
+    {
+      "outcome_id": "GPS-050",
+      "cluster": "CHANGE CONTROL MANAGEMENT",
+      "cluster_id": "CCM",
+      "highest_order_outcome": "Product options, variants, configurations and revisions are consistently controlled and accurate",
+      "tier_level": 1,
+      "outcome_text": "Product options, variants, configurations and revisions are consistently controlled and accurate",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "CHANGE CONTROL MANAGEMENT > Product options, variants, configurations and revisions are consistently controlled and accurate"
+    },
+    {
+      "outcome_id": "GPS-051",
+      "cluster": "CHANGE CONTROL MANAGEMENT",
+      "cluster_id": "CCM",
+      "highest_order_outcome": "All functions have real-time visibility into information related to changes",
+      "tier_level": 1,
+      "outcome_text": "All functions have real-time visibility into information related to changes",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "CHANGE CONTROL MANAGEMENT > All functions have real-time visibility into information related to changes"
+    },
+    {
+      "outcome_id": "GPS-052",
+      "cluster": "CHANGE CONTROL MANAGEMENT",
+      "cluster_id": "CCM",
+      "highest_order_outcome": "Approved  changes are instantly reflected in all appropriate documents and information sources",
+      "tier_level": 1,
+      "outcome_text": "Approved  changes are instantly reflected in all appropriate documents and information sources",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "CHANGE CONTROL MANAGEMENT > Approved  changes are instantly reflected in all appropriate documents and information sources"
+    },
+    {
+      "outcome_id": "GPS-053",
+      "cluster": "CHANGE CONTROL MANAGEMENT",
+      "cluster_id": "CCM",
+      "highest_order_outcome": "All information related to change linked to all design data and production processes",
+      "tier_level": 1,
+      "outcome_text": "All information related to change linked to all design data and production processes",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "CHANGE CONTROL MANAGEMENT > All information related to change linked to all design data and production processes"
+    },
+    {
+      "outcome_id": "GPS-055",
+      "cluster": "General",
+      "cluster_id": "GEN",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 1,
+      "outcome_text": "Product expectations are met in the most effective and efficient manner",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "General > Product expectations are met in the most effective and efficient manner"
+    },
+    {
+      "outcome_id": "GPS-059",
+      "cluster": "General",
+      "cluster_id": "GEN",
+      "highest_order_outcome": "All product expectations of the stakeholders are rapidly & accurately captured",
+      "tier_level": 1,
+      "outcome_text": "All product expectations of the stakeholders are rapidly & accurately captured",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "General > All product expectations of the stakeholders are rapidly & accurately captured"
+    },
+    {
+      "outcome_id": "GPS-062",
+      "cluster": "PRODUCT EXPECTATIONS ARE EXCHANGED WITH CUSTOMERS IN THE MOST EFFICIENT AND EFFECTIVE WAY",
+      "cluster_id": "PEA",
+      "highest_order_outcome": "Product expectations are exchanged with customers in the most efficient and effective way",
+      "tier_level": 1,
+      "outcome_text": "Product expectations are exchanged with customers in the most efficient and effective way",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "PRODUCT EXPECTATIONS ARE EXCHANGED WITH CUSTOMERS IN THE MOST EFFICIENT AND EFFECTIVE WAY > Product expectations are exchanged with customers in the most efficient and effective way"
+    },
+    {
+      "outcome_id": "GPS-065",
+      "cluster": "General",
+      "cluster_id": "GEN",
+      "highest_order_outcome": "Approved requirements are distributed to all relevant functional areas to be implemented",
+      "tier_level": 1,
+      "outcome_text": "Approved requirements are distributed to all relevant functional areas to be implemented",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "General > Approved requirements are distributed to all relevant functional areas to be implemented"
+    },
+    {
+      "outcome_id": "GPS-066",
+      "cluster": "General",
+      "cluster_id": "GEN",
+      "highest_order_outcome": "The integrity of the expectation breakdown structures are never compromised",
+      "tier_level": 1,
+      "outcome_text": "The integrity of the expectation breakdown structures are never compromised",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "General > The integrity of the expectation breakdown structures are never compromised"
+    },
+    {
+      "outcome_id": "GPS-067",
+      "cluster": "General",
+      "cluster_id": "GEN",
+      "highest_order_outcome": "Relevant issues & learning's are captured and acted upon to drive continuous improvement",
+      "tier_level": 1,
+      "outcome_text": "Relevant issues & learning's are captured and acted upon to drive continuous improvement",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "General > Relevant issues & learning's are captured and acted upon to drive continuous improvement"
+    },
+    {
+      "outcome_id": "GPS-074",
+      "cluster": "DESIGN MANAGEMENT AND COLLABORATION",
+      "cluster_id": "DMA",
+      "highest_order_outcome": "The most innovative and unexpected ideas are incorporated in the designs of new products & technologies",
+      "tier_level": 1,
+      "outcome_text": "The most innovative and unexpected ideas are incorporated in the designs of new products & technologies",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "DESIGN MANAGEMENT AND COLLABORATION > The most innovative and unexpected ideas are incorporated in the designs of new products & technologies"
+    },
+    {
+      "outcome_id": "GPS-082",
+      "cluster": "DESIGN MANAGEMENT AND COLLABORATION",
+      "cluster_id": "DMA",
+      "highest_order_outcome": "True virtual models accurately represent the product's behavior under varied conditions",
+      "tier_level": 1,
+      "outcome_text": "True virtual models accurately represent the product's behavior under varied conditions",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "DESIGN MANAGEMENT AND COLLABORATION > True virtual models accurately represent the product's behavior under varied conditions"
+    },
+    {
+      "outcome_id": "GPS-084",
+      "cluster": "DESIGN MANAGEMENT AND COLLABORATION",
+      "cluster_id": "DMA",
+      "highest_order_outcome": "Tooling design is a natural and seamless extension of product part design",
+      "tier_level": 1,
+      "outcome_text": "Tooling design is a natural and seamless extension of product part design",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "DESIGN MANAGEMENT AND COLLABORATION > Tooling design is a natural and seamless extension of product part design"
+    },
+    {
+      "outcome_id": "GPS-085",
+      "cluster": "DESIGN MANAGEMENT AND COLLABORATION",
+      "cluster_id": "DMA",
+      "highest_order_outcome": "The most innovative and forward thinking design practices are created",
+      "tier_level": 1,
+      "outcome_text": "The most innovative and forward thinking design practices are created",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "DESIGN MANAGEMENT AND COLLABORATION > The most innovative and forward thinking design practices are created"
+    },
+    {
+      "outcome_id": "GPS-086",
+      "cluster": "DESIGN MANAGEMENT AND COLLABORATION",
+      "cluster_id": "DMA",
+      "highest_order_outcome": "Employees closest to the point of impact are empowered to make decisions",
+      "tier_level": 1,
+      "outcome_text": "Employees closest to the point of impact are empowered to make decisions",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "DESIGN MANAGEMENT AND COLLABORATION > Employees closest to the point of impact are empowered to make decisions"
+    },
+    {
+      "outcome_id": "GPS-087",
+      "cluster": "DESIGN MANAGEMENT AND COLLABORATION",
+      "cluster_id": "DMA",
+      "highest_order_outcome": "Verification planning is embedded in the early stages of how products are developed",
+      "tier_level": 1,
+      "outcome_text": "Verification planning is embedded in the early stages of how products are developed",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "DESIGN MANAGEMENT AND COLLABORATION > Verification planning is embedded in the early stages of how products are developed"
+    },
+    {
+      "outcome_id": "GPS-089",
+      "cluster": "DESIGN MANAGEMENT AND COLLABORATION",
+      "cluster_id": "DMA",
+      "highest_order_outcome": "Simulation and analysis are integrated throughout design lifecycle",
+      "tier_level": 1,
+      "outcome_text": "Simulation and analysis are integrated throughout design lifecycle",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "DESIGN MANAGEMENT AND COLLABORATION > Simulation and analysis are integrated throughout design lifecycle"
+    },
+    {
+      "outcome_id": "GPS-090",
+      "cluster": "DESIGN MANAGEMENT AND COLLABORATION",
+      "cluster_id": "DMA",
+      "highest_order_outcome": "xisting Test Data and Part performance history is readily leveraged",
+      "tier_level": 1,
+      "outcome_text": "xisting Test Data and Part performance history is readily leveraged",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "DESIGN MANAGEMENT AND COLLABORATION > xisting Test Data and Part performance history is readily leveraged"
+    },
+    {
+      "outcome_id": "GPS-091",
+      "cluster": "DESIGN MANAGEMENT AND COLLABORATION",
+      "cluster_id": "DMA",
+      "highest_order_outcome": "Molex, our customers and partners are engaged in mutually beneficial collaboration",
+      "tier_level": 1,
+      "outcome_text": "Molex, our customers and partners are engaged in mutually beneficial collaboration",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "DESIGN MANAGEMENT AND COLLABORATION > Molex, our customers and partners are engaged in mutually beneficial collaboration"
+    },
+    {
+      "outcome_id": "GPS-095",
+      "cluster": "DESIGN MANAGEMENT AND COLLABORATION",
+      "cluster_id": "DMA",
+      "highest_order_outcome": "An enabled workforce accelerates collaboration and efficiencies across the enterprise",
+      "tier_level": 1,
+      "outcome_text": "An enabled workforce accelerates collaboration and efficiencies across the enterprise",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "DESIGN MANAGEMENT AND COLLABORATION > An enabled workforce accelerates collaboration and efficiencies across the enterprise"
+    },
+    {
+      "outcome_id": "GPS-096",
+      "cluster": "DESIGN MANAGEMENT AND COLLABORATION",
+      "cluster_id": "DMA",
+      "highest_order_outcome": "Collaboration extends simultaneously beyond internal organization with real-time integration",
+      "tier_level": 1,
+      "outcome_text": "Collaboration extends simultaneously beyond internal organization with real-time integration",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "DESIGN MANAGEMENT AND COLLABORATION > Collaboration extends simultaneously beyond internal organization with real-time integration"
+    },
+    {
+      "outcome_id": "GPS-097",
+      "cluster": "DESIGN MANAGEMENT AND COLLABORATION",
+      "cluster_id": "DMA",
+      "highest_order_outcome": "The best skills and knowledge is thoughtfully leveraged to meet our needs",
+      "tier_level": 1,
+      "outcome_text": "The best skills and knowledge is thoughtfully leveraged to meet our needs",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "DESIGN MANAGEMENT AND COLLABORATION > The best skills and knowledge is thoughtfully leveraged to meet our needs"
+    },
+    {
+      "outcome_id": "GPS-100",
+      "cluster": "DESIGN MANAGEMENT AND COLLABORATION",
+      "cluster_id": "DMA",
+      "highest_order_outcome": "Formal design & product part information flows-down across all functional groups & partners.",
+      "tier_level": 1,
+      "outcome_text": "Formal design & product part information flows-down across all functional groups & partners.",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "DESIGN MANAGEMENT AND COLLABORATION > Formal design & product part information flows-down across all functional groups & partners."
+    },
+    {
+      "outcome_id": "GPS-101",
+      "cluster": "DESIGN MANAGEMENT AND COLLABORATION",
+      "cluster_id": "DMA",
+      "highest_order_outcome": "Manufacturing information is digitally tied to product part models and part information",
+      "tier_level": 1,
+      "outcome_text": "Manufacturing information is digitally tied to product part models and part information",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "DESIGN MANAGEMENT AND COLLABORATION > Manufacturing information is digitally tied to product part models and part information"
+    },
+    {
+      "outcome_id": "GPS-102",
+      "cluster": "DESIGN MANAGEMENT AND COLLABORATION",
+      "cluster_id": "DMA",
+      "highest_order_outcome": "Complete and accurate Product Development related knowledge is immediately accessable",
+      "tier_level": 1,
+      "outcome_text": "Complete and accurate Product Development related knowledge is immediately accessable",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "DESIGN MANAGEMENT AND COLLABORATION > Complete and accurate Product Development related knowledge is immediately accessable"
+    },
+    {
+      "outcome_id": "GPS-103",
+      "cluster": "DESIGN MANAGEMENT AND COLLABORATION",
+      "cluster_id": "DMA",
+      "highest_order_outcome": "Any change made to product related information by any function in the company is instantly updated",
+      "tier_level": 1,
+      "outcome_text": "Any change made to product related information by any function in the company is instantly updated",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "DESIGN MANAGEMENT AND COLLABORATION > Any change made to product related information by any function in the company is instantly updated"
+    },
+    {
+      "outcome_id": "GPS-107",
+      "cluster": "General",
+      "cluster_id": "GEN",
+      "highest_order_outcome": "The proper tools are available for data consumers and producers",
+      "tier_level": 1,
+      "outcome_text": "The proper tools are available for data consumers and producers",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "General > The proper tools are available for data consumers and producers"
+    },
+    {
+      "outcome_id": "GPS-108",
+      "cluster": "General",
+      "cluster_id": "GEN",
+      "highest_order_outcome": "Critical resources across PD and Digital are effectively leveraged",
+      "tier_level": 1,
+      "outcome_text": "Critical resources across PD and Digital are effectively leveraged",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "General > Critical resources across PD and Digital are effectively leveraged"
+    },
+    {
+      "outcome_id": "GPS-109",
+      "cluster": "General",
+      "cluster_id": "GEN",
+      "highest_order_outcome": "Proper investments enable the potential of data to be realized",
+      "tier_level": 1,
+      "outcome_text": "Proper investments enable the potential of data to be realized",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "General > Proper investments enable the potential of data to be realized"
+    },
+    {
+      "outcome_id": "GPS-110",
+      "cluster": "General",
+      "cluster_id": "GEN",
+      "highest_order_outcome": "Data strategy prioritized value over data monetization",
+      "tier_level": 1,
+      "outcome_text": "Data strategy prioritized value over data monetization",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "General > Data strategy prioritized value over data monetization"
+    },
+    {
+      "outcome_id": "GPS-111",
+      "cluster": "General",
+      "cluster_id": "GEN",
+      "highest_order_outcome": "Data strategy reflects the unique characteristics of the business units",
+      "tier_level": 1,
+      "outcome_text": "Data strategy reflects the unique characteristics of the business units",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "General > Data strategy reflects the unique characteristics of the business units"
+    },
+    {
+      "outcome_id": "GPS-112",
+      "cluster": "General",
+      "cluster_id": "GEN",
+      "highest_order_outcome": "A clear, thoughtful and well defined data strategy exists",
+      "tier_level": 1,
+      "outcome_text": "A clear, thoughtful and well defined data strategy exists",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "General > A clear, thoughtful and well defined data strategy exists"
+    },
+    {
+      "outcome_id": "GPS-113",
+      "cluster": "General",
+      "cluster_id": "GEN",
+      "highest_order_outcome": "The reasoning and expected outcomes are understood and actionable",
+      "tier_level": 1,
+      "outcome_text": "The reasoning and expected outcomes are understood and actionable",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "General > The reasoning and expected outcomes are understood and actionable"
+    },
+    {
+      "outcome_id": "GPS-122",
+      "cluster": "General",
+      "cluster_id": "GEN",
+      "highest_order_outcome": "Data products repeatedly deliver clear business value",
+      "tier_level": 1,
+      "outcome_text": "Data products repeatedly deliver clear business value",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "General > Data products repeatedly deliver clear business value"
+    },
+    {
+      "outcome_id": "GPS-126",
+      "cluster": "General",
+      "cluster_id": "GEN",
+      "highest_order_outcome": "Data and information is structured for delivery across the extended enterprise",
+      "tier_level": 1,
+      "outcome_text": "Data and information is structured for delivery across the extended enterprise",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "General > Data and information is structured for delivery across the extended enterprise"
+    },
+    {
+      "outcome_id": "GPS-127",
+      "cluster": "General",
+      "cluster_id": "GEN",
+      "highest_order_outcome": "Data and information is harmonized to flow seamlessly across the enterprise",
+      "tier_level": 1,
+      "outcome_text": "Data and information is harmonized to flow seamlessly across the enterprise",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "General > Data and information is harmonized to flow seamlessly across the enterprise"
+    },
+    {
+      "outcome_id": "GPS-128",
+      "cluster": "CHANGES MADE TO DATA IS INSTANTLY UPDATED AND COMMUNICATED",
+      "cluster_id": "CMT",
+      "highest_order_outcome": "Changes made to data is instantly updated and communicated",
+      "tier_level": 1,
+      "outcome_text": "Changes made to data is instantly updated and communicated",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "CHANGES MADE TO DATA IS INSTANTLY UPDATED AND COMMUNICATED > Changes made to data is instantly updated and communicated"
+    },
+    {
+      "outcome_id": "GPS-129",
+      "cluster": "General",
+      "cluster_id": "GEN",
+      "highest_order_outcome": "Confident and consistent decisions are quickly made",
+      "tier_level": 1,
+      "outcome_text": "Confident and consistent decisions are quickly made",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "General > Confident and consistent decisions are quickly made"
+    },
+    {
+      "outcome_id": "GPS-130",
+      "cluster": "General",
+      "cluster_id": "GEN",
+      "highest_order_outcome": "Enterprise data governance guidelines are stewarded and applied",
+      "tier_level": 1,
+      "outcome_text": "Enterprise data governance guidelines are stewarded and applied",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "General > Enterprise data governance guidelines are stewarded and applied"
+    },
+    {
+      "outcome_id": "GPS-133",
+      "cluster": "General",
+      "cluster_id": "GEN",
+      "highest_order_outcome": "Access controls are established and adopted across all data consumption paths",
+      "tier_level": 1,
+      "outcome_text": "Access controls are established and adopted across all data consumption paths",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "General > Access controls are established and adopted across all data consumption paths"
+    }
+  ],
+  "deduplication_info": {
+    "deduplicated_date": "2025-09-23 20:35:50",
+    "duplicates_removed": 2,
+    "final_count": 288
+  }
+}

@@ -26,10 +26,10 @@ class AppConfig:
     # Database Configuration
     CHROMA_DB_PATH: str = os.getenv("CHROMA_DB_PATH", "./data/betty_chroma_db")
     
-    # Text Processing Configuration
-    CHUNK_SIZE: int = int(os.getenv("CHUNK_SIZE", "800"))
-    CHUNK_OVERLAP: int = int(os.getenv("CHUNK_OVERLAP", "100"))
-    MAX_SEARCH_RESULTS: int = int(os.getenv("MAX_SEARCH_RESULTS", "5"))
+    # Text Processing Configuration - Optimized for consistent context
+    CHUNK_SIZE: int = int(os.getenv("CHUNK_SIZE", "1000"))  # Larger chunks for better context
+    CHUNK_OVERLAP: int = int(os.getenv("CHUNK_OVERLAP", "200"))  # More overlap for continuity
+    MAX_SEARCH_RESULTS: int = int(os.getenv("MAX_SEARCH_RESULTS", "8"))  # More results for comprehensive context
     
     # Embedding Configuration
     EMBEDDING_MODEL: str = os.getenv("EMBEDDING_MODEL", "sentence-transformers/all-mpnet-base-v2")
@@ -37,7 +37,7 @@ class AppConfig:
     
     # File Processing Configuration
     MAX_FILE_SIZE_MB: int = int(os.getenv("MAX_FILE_SIZE_MB", "10"))
-    SUPPORTED_FILE_TYPES: tuple = (".pdf", ".docx", ".txt")
+    SUPPORTED_FILE_TYPES: tuple = (".pdf", ".docx", ".txt", ".csv")
     
     # UI Configuration
     PAGE_TITLE: str = "Betty - Your AI Assistant"
@@ -50,9 +50,9 @@ class AppConfig:
         "docs/Molex Manufacturing BA Reference Architecture.docx"
     )
     
-    # RAG Enhancement Configuration
-    USE_RERANKING: bool = bool(os.getenv("USE_RERANKING", "True"))
-    USE_SEMANTIC_CHUNKING: bool = bool(os.getenv("USE_SEMANTIC_CHUNKING", "True"))
+    # RAG Enhancement Configuration - Optimized for consistency
+    USE_RERANKING: bool = bool(os.getenv("USE_RERANKING", "False"))  # Disabled for deterministic results
+    USE_SEMANTIC_CHUNKING: bool = bool(os.getenv("USE_SEMANTIC_CHUNKING", "False"))  # Simplified chunking
     RERANKER_MODEL: str = os.getenv("RERANKER_MODEL", "cross-encoder/ms-marco-MiniLM-L-6-v2")
     
     # Environment Configuration

@@ -1,0 +1,1836 @@
+{
+  "gps_version": "3.0",
+  "capability_focus": "BOM & PIM and Change Control",
+  "created_date": "2025-09-19",
+  "metadata": {
+    "total_outcomes": 150,
+    "complete_file": true,
+    "not_a_template": true,
+    "includes_highest_order": true,
+    "max_tier_level": 5
+  },
+  "outcomes": [
+    {
+      "outcome_id": "BPM-001",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 1,
+      "outcome_text": "The integrity of part information is never compromised",
+      "parent_id": null,
+      "children_ids": [
+        "BPM-002",
+        "BPM-003",
+        "BPM-004",
+        "BPM-005"
+      ],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > The integrity of part information is never compromised"
+    },
+    {
+      "outcome_id": "BPM-002",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "The accuracy of part information is continually maintained",
+      "parent_id": "BPM-001",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > The accuracy of part information is continually maintained"
+    },
+    {
+      "outcome_id": "BPM-003",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "Advanced security capabilities ensure part information is accessed by the right people",
+      "parent_id": "BPM-001",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Advanced security capabilities ensure part information is accessed by the right people"
+    },
+    {
+      "outcome_id": "BPM-004",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "Part information is continually reviewed for relevance & release",
+      "parent_id": "BPM-001",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Part information is continually reviewed for relevance & release"
+    },
+    {
+      "outcome_id": "BPM-005",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "Part information is standardized",
+      "parent_id": "BPM-001",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Part information is standardized"
+    },
+    {
+      "outcome_id": "BPM-006",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 1,
+      "outcome_text": "Part information is effectively managed at each phase of the part life-cycle",
+      "parent_id": null,
+      "children_ids": [
+        "BPM-007",
+        "BPM-008",
+        "BPM-009",
+        "BPM-010",
+        "BPM-011"
+      ],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Part information is effectively managed at each phase of the part life-cycle"
+    },
+    {
+      "outcome_id": "BPM-007",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "The effectivity of every change made to part information is captured",
+      "parent_id": "BPM-006",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > The effectivity of every change made to part information is captured"
+    },
+    {
+      "outcome_id": "BPM-008",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "Part information is properly organized and easily accessed",
+      "parent_id": "BPM-006",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Part information is properly organized and easily accessed"
+    },
+    {
+      "outcome_id": "BPM-009",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "It's easy to make and track changes to part information",
+      "parent_id": "BPM-006",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > It's easy to make and track changes to part information"
+    },
+    {
+      "outcome_id": "BPM-010",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "Part information is easily and effectively shared",
+      "parent_id": "BPM-006",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Part information is easily and effectively shared"
+    },
+    {
+      "outcome_id": "BPM-011",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "All digital assets are linked to parts",
+      "parent_id": "BPM-006",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > All digital assets are linked to parts"
+    },
+    {
+      "outcome_id": "BPM-012",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 1,
+      "outcome_text": "Parts are  reviewed and released for use",
+      "parent_id": null,
+      "children_ids": [
+        "BPM-013",
+        "BPM-014",
+        "BPM-015"
+      ],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Parts are  reviewed and released for use"
+    },
+    {
+      "outcome_id": "BPM-013",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "Every change made to a part's design is justified by a business case",
+      "parent_id": "BPM-012",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Every change made to a part's design is justified by a business case"
+    },
+    {
+      "outcome_id": "BPM-014",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "Designs are released using well defined criteria",
+      "parent_id": "BPM-012",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Designs are released using well defined criteria"
+    },
+    {
+      "outcome_id": "BPM-015",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "Common release processes are practiced across all functional areas",
+      "parent_id": "BPM-012",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Common release processes are practiced across all functional areas"
+    },
+    {
+      "outcome_id": "BPM-016",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 1,
+      "outcome_text": "Parts are easily and accurately combined to form new parts",
+      "parent_id": null,
+      "children_ids": [
+        "BPM-017",
+        "BPM-020",
+        "BPM-023",
+        "BPM-027",
+        "BPM-031"
+      ],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Parts are easily and accurately combined to form new parts"
+    },
+    {
+      "outcome_id": "BPM-017",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "Preferred materials and parts optimally leveraged in our design",
+      "parent_id": "BPM-016",
+      "children_ids": [
+        "BPM-018",
+        "BPM-019"
+      ],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Preferred materials and parts optimally leveraged in our design"
+    },
+    {
+      "outcome_id": "BPM-018",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 3,
+      "outcome_text": "An unbelievable level of service is delivered to every customer",
+      "parent_id": "BPM-017",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > An unbelievable level of service is delivered to every customer"
+    },
+    {
+      "outcome_id": "BPM-019",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 3,
+      "outcome_text": "Proven design  standards and consistently employed",
+      "parent_id": "BPM-017",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Proven design  standards and consistently employed"
+    },
+    {
+      "outcome_id": "BPM-020",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "Standard  component parts are rationalized and minimized across all parts",
+      "parent_id": "BPM-016",
+      "children_ids": [
+        "BPM-021",
+        "BPM-022"
+      ],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Standard  component parts are rationalized and minimized across all parts"
+    },
+    {
+      "outcome_id": "BPM-021",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 3,
+      "outcome_text": "A proven platform of standard parts  and designs elements is maintained",
+      "parent_id": "BPM-020",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > A proven platform of standard parts  and designs elements is maintained"
+    },
+    {
+      "outcome_id": "BPM-022",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 3,
+      "outcome_text": "Parts are easily identifiable by classifications and attributes",
+      "parent_id": "BPM-020",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Parts are easily identifiable by classifications and attributes"
+    },
+    {
+      "outcome_id": "BPM-023",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "Part features selected are effective and profitable",
+      "parent_id": "BPM-016",
+      "children_ids": [
+        "BPM-024",
+        "BPM-025",
+        "BPM-026"
+      ],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Part features selected are effective and profitable"
+    },
+    {
+      "outcome_id": "BPM-024",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 3,
+      "outcome_text": "Part feature's  contribute to overall profitability",
+      "parent_id": "BPM-023",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Part feature's  contribute to overall profitability"
+    },
+    {
+      "outcome_id": "BPM-025",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 3,
+      "outcome_text": "Part features selected help to expedite program schedules",
+      "parent_id": "BPM-023",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Part features selected help to expedite program schedules"
+    },
+    {
+      "outcome_id": "BPM-026",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 3,
+      "outcome_text": "Immediate knowledge and awareness of a part features and options exists",
+      "parent_id": "BPM-023",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Immediate knowledge and awareness of a part features and options exists"
+    },
+    {
+      "outcome_id": "BPM-027",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "Alternate & substitute parts/ components are instantly identified and used when possible",
+      "parent_id": "BPM-016",
+      "children_ids": [
+        "BPM-028",
+        "BPM-029",
+        "BPM-030"
+      ],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Alternate & substitute parts/ components are instantly identified and used when possible"
+    },
+    {
+      "outcome_id": "BPM-028",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 3,
+      "outcome_text": "Visibility to  accurate parts inventory exists",
+      "parent_id": "BPM-027",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Visibility to  accurate parts inventory exists"
+    },
+    {
+      "outcome_id": "BPM-029",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 3,
+      "outcome_text": "Immediate knowledge and awareness of a part features and options exists",
+      "parent_id": "BPM-027",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Immediate knowledge and awareness of a part features and options exists"
+    },
+    {
+      "outcome_id": "BPM-030",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 3,
+      "outcome_text": "Parts are easily identifiable by classifications and attributes",
+      "parent_id": "BPM-027",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Parts are easily identifiable by classifications and attributes"
+    },
+    {
+      "outcome_id": "BPM-031",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "Revision/ version sequencing is properly configured",
+      "parent_id": "BPM-016",
+      "children_ids": [
+        "BPM-032",
+        "BPM-033"
+      ],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Revision/ version sequencing is properly configured"
+    },
+    {
+      "outcome_id": "BPM-032",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 3,
+      "outcome_text": "Immediate knowledge and awareness of a part features and options exists",
+      "parent_id": "BPM-031",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Immediate knowledge and awareness of a part features and options exists"
+    },
+    {
+      "outcome_id": "BPM-033",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 3,
+      "outcome_text": "Component descriptions are traceable though a parts life cycle",
+      "parent_id": "BPM-031",
+      "children_ids": [
+        "BPM-034"
+      ],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Component descriptions are traceable though a parts life cycle"
+    },
+    {
+      "outcome_id": "BPM-034",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 4,
+      "outcome_text": "Part versions are accurately maintained",
+      "parent_id": "BPM-033",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Part versions are accurately maintained"
+    },
+    {
+      "outcome_id": "BPM-035",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 1,
+      "outcome_text": "Part information is  harmonized to flow seamlessly across departments",
+      "parent_id": null,
+      "children_ids": [
+        "BPM-036",
+        "BPM-037",
+        "BPM-038"
+      ],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Part information is  harmonized to flow seamlessly across departments"
+    },
+    {
+      "outcome_id": "BPM-036",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "Part information seamlessly integrates with other enterprise systems",
+      "parent_id": "BPM-035",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Part information seamlessly integrates with other enterprise systems"
+    },
+    {
+      "outcome_id": "BPM-037",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "A single source of the truth for part information exists",
+      "parent_id": "BPM-035",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > A single source of the truth for part information exists"
+    },
+    {
+      "outcome_id": "BPM-038",
+      "cluster": "BOM & PIM",
+      "cluster_id": "BPM",
+      "highest_order_outcome": "Accurate & comprehensive digital part information is immediately available to all functional area",
+      "tier_level": 2,
+      "outcome_text": "Part information is consistently structured for delivery across departments",
+      "parent_id": "BPM-035",
+      "children_ids": [],
+      "full_hierarchical_path": "BOM & PIM > Accurate & comprehensive digital part information is immediately available to all functional area > Part information is consistently structured for delivery across departments"
+    },
+    {
+      "outcome_id": "CHA-039",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "Change Control management works for all our businesses & Industries",
+      "tier_level": 1,
+      "outcome_text": "Product part changes effectively occur",
+      "parent_id": null,
+      "children_ids": [
+        "CHA-040",
+        "CHA-043",
+        "CHA-051"
+      ],
+      "full_hierarchical_path": "Change Control Management > Change Control management works for all our businesses & Industries > Product part changes effectively occur"
+    },
+    {
+      "outcome_id": "CHA-040",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "Change Control management works for all our businesses & Industries",
+      "tier_level": 2,
+      "outcome_text": "Potential change issues are detected before they escalate",
+      "parent_id": "CHA-039",
+      "children_ids": [
+        "CHA-041",
+        "CHA-042"
+      ],
+      "full_hierarchical_path": "Change Control Management > Change Control management works for all our businesses & Industries > Potential change issues are detected before they escalate"
+    },
+    {
+      "outcome_id": "CHA-041",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "Change Control management works for all our businesses & Industries",
+      "tier_level": 3,
+      "outcome_text": "Changes consistently meet quality and compliance requirements",
+      "parent_id": "CHA-040",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > Change Control management works for all our businesses & Industries > Changes consistently meet quality and compliance requirements"
+    },
+    {
+      "outcome_id": "CHA-042",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "Change Control management works for all our businesses & Industries",
+      "tier_level": 3,
+      "outcome_text": "Lessons learned from previous changes are considered and applied where applicable",
+      "parent_id": "CHA-040",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > Change Control management works for all our businesses & Industries > Lessons learned from previous changes are considered and applied where applicable"
+    },
+    {
+      "outcome_id": "CHA-043",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "Change Control management works for all our businesses & Industries",
+      "tier_level": 2,
+      "outcome_text": "Adaptive change control propels product evolution forward effortlessly",
+      "parent_id": "CHA-039",
+      "children_ids": [
+        "CHA-044",
+        "CHA-045",
+        "CHA-046",
+        "CHA-047",
+        "CHA-050"
+      ],
+      "full_hierarchical_path": "Change Control Management > Change Control management works for all our businesses & Industries > Adaptive change control propels product evolution forward effortlessly"
+    },
+    {
+      "outcome_id": "CHA-044",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "Change Control management works for all our businesses & Industries",
+      "tier_level": 3,
+      "outcome_text": "Lessons learned from previous changes are considered and applied where applicable",
+      "parent_id": "CHA-043",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > Change Control management works for all our businesses & Industries > Lessons learned from previous changes are considered and applied where applicable"
+    },
+    {
+      "outcome_id": "CHA-045",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "Change Control management works for all our businesses & Industries",
+      "tier_level": 3,
+      "outcome_text": "All change requests are thoroughly vetted and approved",
+      "parent_id": "CHA-043",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > Change Control management works for all our businesses & Industries > All change requests are thoroughly vetted and approved"
+    },
+    {
+      "outcome_id": "CHA-046",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "Change Control management works for all our businesses & Industries",
+      "tier_level": 3,
+      "outcome_text": "Change readiness is verified with timely complete, connected documentation",
+      "parent_id": "CHA-043",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > Change Control management works for all our businesses & Industries > Change readiness is verified with timely complete, connected documentation"
+    },
+    {
+      "outcome_id": "CHA-047",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "Change Control management works for all our businesses & Industries",
+      "tier_level": 3,
+      "outcome_text": "People are prepared and confident navigating change effectively",
+      "parent_id": "CHA-043",
+      "children_ids": [
+        "CHA-048",
+        "CHA-049"
+      ],
+      "full_hierarchical_path": "Change Control Management > Change Control management works for all our businesses & Industries > People are prepared and confident navigating change effectively"
+    },
+    {
+      "outcome_id": "CHA-048",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "Change Control management works for all our businesses & Industries",
+      "tier_level": 4,
+      "outcome_text": "Decision rights for changes are clearly defined and followed",
+      "parent_id": "CHA-047",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > Change Control management works for all our businesses & Industries > Decision rights for changes are clearly defined and followed"
+    },
+    {
+      "outcome_id": "CHA-049",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "Change Control management works for all our businesses & Industries",
+      "tier_level": 4,
+      "outcome_text": "The change control process is intuitive",
+      "parent_id": "CHA-047",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > Change Control management works for all our businesses & Industries > The change control process is intuitive"
+    },
+    {
+      "outcome_id": "CHA-050",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "Change Control management works for all our businesses & Industries",
+      "tier_level": 3,
+      "outcome_text": "Requests for change are responded to with urgency",
+      "parent_id": "CHA-043",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > Change Control management works for all our businesses & Industries > Requests for change are responded to with urgency"
+    },
+    {
+      "outcome_id": "CHA-051",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "Change Control management works for all our businesses & Industries",
+      "tier_level": 2,
+      "outcome_text": "Product Part change processes are scalable and highly efficient",
+      "parent_id": "CHA-039",
+      "children_ids": [
+        "CHA-052",
+        "CHA-053",
+        "CHA-054",
+        "CHA-055"
+      ],
+      "full_hierarchical_path": "Change Control Management > Change Control management works for all our businesses & Industries > Product Part change processes are scalable and highly efficient"
+    },
+    {
+      "outcome_id": "CHA-052",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "Change Control management works for all our businesses & Industries",
+      "tier_level": 3,
+      "outcome_text": "Lifecycle appropriate change controls are consistently applied.",
+      "parent_id": "CHA-051",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > Change Control management works for all our businesses & Industries > Lifecycle appropriate change controls are consistently applied."
+    },
+    {
+      "outcome_id": "CHA-053",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "Change Control management works for all our businesses & Industries",
+      "tier_level": 3,
+      "outcome_text": "A global uniform core change framework is tailored to meet the needs of the business",
+      "parent_id": "CHA-051",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > Change Control management works for all our businesses & Industries > A global uniform core change framework is tailored to meet the needs of the business"
+    },
+    {
+      "outcome_id": "CHA-054",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "Change Control management works for all our businesses & Industries",
+      "tier_level": 3,
+      "outcome_text": "Change is executed smoothly without introducing bottlenecks..",
+      "parent_id": "CHA-051",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > Change Control management works for all our businesses & Industries > Change is executed smoothly without introducing bottlenecks.."
+    },
+    {
+      "outcome_id": "CHA-055",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "Change Control management works for all our businesses & Industries",
+      "tier_level": 3,
+      "outcome_text": "The change process is seamlessly integrated into every functional group",
+      "parent_id": "CHA-051",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > Change Control management works for all our businesses & Industries > The change process is seamlessly integrated into every functional group"
+    },
+    {
+      "outcome_id": "CHA-056",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "All functions contribute effortlessly throughout the change process",
+      "tier_level": 1,
+      "outcome_text": "All relevant stakeholders evaluate the impact of change",
+      "parent_id": null,
+      "children_ids": [
+        "CHA-057",
+        "CHA-058",
+        "CHA-059"
+      ],
+      "full_hierarchical_path": "Change Control Management > All functions contribute effortlessly throughout the change process > All relevant stakeholders evaluate the impact of change"
+    },
+    {
+      "outcome_id": "CHA-057",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "All functions contribute effortlessly throughout the change process",
+      "tier_level": 2,
+      "outcome_text": "Supplier improvements are efficiently evaluated and implemented",
+      "parent_id": "CHA-056",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > All functions contribute effortlessly throughout the change process > Supplier improvements are efficiently evaluated and implemented"
+    },
+    {
+      "outcome_id": "CHA-058",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "All functions contribute effortlessly throughout the change process",
+      "tier_level": 2,
+      "outcome_text": "Customer feedback directly shapes change decisions.",
+      "parent_id": "CHA-056",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > All functions contribute effortlessly throughout the change process > Customer feedback directly shapes change decisions."
+    },
+    {
+      "outcome_id": "CHA-059",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "All functions contribute effortlessly throughout the change process",
+      "tier_level": 2,
+      "outcome_text": "External partners collaborate seamlessly in shared change processes.",
+      "parent_id": "CHA-056",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > All functions contribute effortlessly throughout the change process > External partners collaborate seamlessly in shared change processes."
+    },
+    {
+      "outcome_id": "CHA-060",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "All functions contribute effortlessly throughout the change process",
+      "tier_level": 1,
+      "outcome_text": "Changes are acknowledged by every stakeholder",
+      "parent_id": null,
+      "children_ids": [
+        "CHA-061",
+        "CHA-062",
+        "CHA-063"
+      ],
+      "full_hierarchical_path": "Change Control Management > All functions contribute effortlessly throughout the change process > Changes are acknowledged by every stakeholder"
+    },
+    {
+      "outcome_id": "CHA-061",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "All functions contribute effortlessly throughout the change process",
+      "tier_level": 2,
+      "outcome_text": "Role‑specific change information is delivered clearly and on times",
+      "parent_id": "CHA-060",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > All functions contribute effortlessly throughout the change process > Role‑specific change information is delivered clearly and on times"
+    },
+    {
+      "outcome_id": "CHA-062",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "All functions contribute effortlessly throughout the change process",
+      "tier_level": 2,
+      "outcome_text": "Accurate and complete notifications of change are effectively communicated to appropriate groups",
+      "parent_id": "CHA-060",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > All functions contribute effortlessly throughout the change process > Accurate and complete notifications of change are effectively communicated to appropriate groups"
+    },
+    {
+      "outcome_id": "CHA-063",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "All functions contribute effortlessly throughout the change process",
+      "tier_level": 2,
+      "outcome_text": "Change impacts are immediately visible to all affected groups.",
+      "parent_id": "CHA-060",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > All functions contribute effortlessly throughout the change process > Change impacts are immediately visible to all affected groups."
+    },
+    {
+      "outcome_id": "CHA-064",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "End‑to‑end traceability is maintained across the change lifecycle.",
+      "tier_level": 1,
+      "outcome_text": "Production feedback reliably drives timely design and process updates.",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > End‑to‑end traceability is maintained across the change lifecycle. > Production feedback reliably drives timely design and process updates."
+    },
+    {
+      "outcome_id": "CHA-065",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "End‑to‑end traceability is maintained across the change lifecycle.",
+      "tier_level": 1,
+      "outcome_text": "Change requests come from any part of the organization",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > End‑to‑end traceability is maintained across the change lifecycle. > Change requests come from any part of the organization"
+    },
+    {
+      "outcome_id": "CHA-066",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "End‑to‑end traceability is maintained across the change lifecycle.",
+      "tier_level": 1,
+      "outcome_text": "Full awareness to \"reason for change\" to all functional groups exists",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > End‑to‑end traceability is maintained across the change lifecycle. > Full awareness to \"reason for change\" to all functional groups exists"
+    },
+    {
+      "outcome_id": "CHA-067",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "Changes to product parts with shared features are masterfully handled",
+      "tier_level": 1,
+      "outcome_text": "Revision levels are clear and understood",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > Changes to product parts with shared features are masterfully handled > Revision levels are clear and understood"
+    },
+    {
+      "outcome_id": "CHA-068",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "Changes to product parts with shared features are masterfully handled",
+      "tier_level": 1,
+      "outcome_text": "Product options, variants, configurations and revisions are consistently controlled and accurate",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > Changes to product parts with shared features are masterfully handled > Product options, variants, configurations and revisions are consistently controlled and accurate"
+    },
+    {
+      "outcome_id": "CHA-069",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "All functions have real-time visibility into information related to changes",
+      "tier_level": 1,
+      "outcome_text": "A single source of the truth for change related information exists",
+      "parent_id": null,
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > All functions have real-time visibility into information related to changes > A single source of the truth for change related information exists"
+    },
+    {
+      "outcome_id": "CHA-070",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "All functions have real-time visibility into information related to changes",
+      "tier_level": 1,
+      "outcome_text": "Change information flows seamlessly across all departments",
+      "parent_id": null,
+      "children_ids": [
+        "CHA-071",
+        "CHA-072",
+        "CHA-073"
+      ],
+      "full_hierarchical_path": "Change Control Management > All functions have real-time visibility into information related to changes > Change information flows seamlessly across all departments"
+    },
+    {
+      "outcome_id": "CHA-071",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "All functions have real-time visibility into information related to changes",
+      "tier_level": 2,
+      "outcome_text": "Approved  changes are instantly reflected in all appropriate documents and information sources",
+      "parent_id": "CHA-070",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > All functions have real-time visibility into information related to changes > Approved  changes are instantly reflected in all appropriate documents and information sources"
+    },
+    {
+      "outcome_id": "CHA-072",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "All functions have real-time visibility into information related to changes",
+      "tier_level": 2,
+      "outcome_text": "All information related to change linked to all design data and production processes",
+      "parent_id": "CHA-070",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > All functions have real-time visibility into information related to changes > All information related to change linked to all design data and production processes"
+    },
+    {
+      "outcome_id": "CHA-073",
+      "cluster": "Change Control Management",
+      "cluster_id": "CHA",
+      "highest_order_outcome": "All functions have real-time visibility into information related to changes",
+      "tier_level": 2,
+      "outcome_text": "Change information is structured for delivery across departments",
+      "parent_id": "CHA-070",
+      "children_ids": [],
+      "full_hierarchical_path": "Change Control Management > All functions have real-time visibility into information related to changes > Change information is structured for delivery across departments"
+    },
+    {
+      "outcome_id": "REQ-074",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 1,
+      "outcome_text": "Comprehensive and viable product expectations exist",
+      "parent_id": null,
+      "children_ids": [
+        "REQ-075",
+        "REQ-080",
+        "REQ-086"
+      ],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Comprehensive and viable product expectations exist"
+    },
+    {
+      "outcome_id": "REQ-075",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 2,
+      "outcome_text": "Product expectations are well managed",
+      "parent_id": "REQ-074",
+      "children_ids": [
+        "REQ-076",
+        "REQ-077",
+        "REQ-078",
+        "REQ-079"
+      ],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Product expectations are well managed"
+    },
+    {
+      "outcome_id": "REQ-076",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 3,
+      "outcome_text": "Expectations are evaluated for feasibility",
+      "parent_id": "REQ-075",
+      "children_ids": [],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Expectations are evaluated for feasibility"
+    },
+    {
+      "outcome_id": "REQ-077",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 3,
+      "outcome_text": "Only relevant expectations are considered and prioritized",
+      "parent_id": "REQ-075",
+      "children_ids": [],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Only relevant expectations are considered and prioritized"
+    },
+    {
+      "outcome_id": "REQ-078",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 3,
+      "outcome_text": "All product expectations of the stakeholders well understood",
+      "parent_id": "REQ-075",
+      "children_ids": [],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > All product expectations of the stakeholders well understood"
+    },
+    {
+      "outcome_id": "REQ-079",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 3,
+      "outcome_text": "Changes to expectations are effectively managed",
+      "parent_id": "REQ-075",
+      "children_ids": [],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Changes to expectations are effectively managed"
+    },
+    {
+      "outcome_id": "REQ-080",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 2,
+      "outcome_text": "All product expectations of the stakeholders are rapidly & accurately captured",
+      "parent_id": "REQ-074",
+      "children_ids": [
+        "REQ-081",
+        "REQ-082",
+        "REQ-083",
+        "REQ-084",
+        "REQ-085"
+      ],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > All product expectations of the stakeholders are rapidly & accurately captured"
+    },
+    {
+      "outcome_id": "REQ-081",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 3,
+      "outcome_text": "New product requests are effectively received and reviewed.",
+      "parent_id": "REQ-080",
+      "children_ids": [],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > New product requests are effectively received and reviewed."
+    },
+    {
+      "outcome_id": "REQ-082",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 3,
+      "outcome_text": "The voices of our customers are heard",
+      "parent_id": "REQ-080",
+      "children_ids": [],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > The voices of our customers are heard"
+    },
+    {
+      "outcome_id": "REQ-083",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 3,
+      "outcome_text": "Product expectations of all internal stakeholders are heard",
+      "parent_id": "REQ-080",
+      "children_ids": [],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Product expectations of all internal stakeholders are heard"
+    },
+    {
+      "outcome_id": "REQ-084",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 3,
+      "outcome_text": "Product expectations are exchanged with customers in the most efficient and effective way",
+      "parent_id": "REQ-080",
+      "children_ids": [],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Product expectations are exchanged with customers in the most efficient and effective way"
+    },
+    {
+      "outcome_id": "REQ-085",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 3,
+      "outcome_text": "Changes to expectations are effectively managed",
+      "parent_id": "REQ-080",
+      "children_ids": [],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Changes to expectations are effectively managed"
+    },
+    {
+      "outcome_id": "REQ-086",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 2,
+      "outcome_text": "Customer voices are easily transformed into concise requirements",
+      "parent_id": "REQ-074",
+      "children_ids": [],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Customer voices are easily transformed into concise requirements"
+    },
+    {
+      "outcome_id": "REQ-087",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 1,
+      "outcome_text": "Clear responsibilities & ownership of meeting an expectation exists",
+      "parent_id": null,
+      "children_ids": [
+        "REQ-088"
+      ],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Clear responsibilities & ownership of meeting an expectation exists"
+    },
+    {
+      "outcome_id": "REQ-088",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 2,
+      "outcome_text": "Approved requirements are distributed to all relevant functional areas to be implemented",
+      "parent_id": "REQ-087",
+      "children_ids": [],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Approved requirements are distributed to all relevant functional areas to be implemented"
+    },
+    {
+      "outcome_id": "REQ-089",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 1,
+      "outcome_text": "The integrity of the expectation breakdown structures are never compromised",
+      "parent_id": null,
+      "children_ids": [
+        "REQ-090",
+        "REQ-091",
+        "REQ-094"
+      ],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > The integrity of the expectation breakdown structures are never compromised"
+    },
+    {
+      "outcome_id": "REQ-090",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 2,
+      "outcome_text": "Dependencies between requirements are synchronized & traceable",
+      "parent_id": "REQ-089",
+      "children_ids": [],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Dependencies between requirements are synchronized & traceable"
+    },
+    {
+      "outcome_id": "REQ-091",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 2,
+      "outcome_text": "Risks that can impede customer expectations are confidently mitigated",
+      "parent_id": "REQ-089",
+      "children_ids": [
+        "REQ-092",
+        "REQ-093"
+      ],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Risks that can impede customer expectations are confidently mitigated"
+    },
+    {
+      "outcome_id": "REQ-092",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 3,
+      "outcome_text": "Relevant issues & learning's are captured and acted upon to drive continuous improvement",
+      "parent_id": "REQ-091",
+      "children_ids": [],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Relevant issues & learning's are captured and acted upon to drive continuous improvement"
+    },
+    {
+      "outcome_id": "REQ-093",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 3,
+      "outcome_text": "We confidently predict what our customers needs",
+      "parent_id": "REQ-091",
+      "children_ids": [],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > We confidently predict what our customers needs"
+    },
+    {
+      "outcome_id": "REQ-094",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 2,
+      "outcome_text": "Expectation break down structure is effectively reused",
+      "parent_id": "REQ-089",
+      "children_ids": [
+        "REQ-095",
+        "REQ-096"
+      ],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Expectation break down structure is effectively reused"
+    },
+    {
+      "outcome_id": "REQ-095",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 3,
+      "outcome_text": "We confidently predict what our customers need",
+      "parent_id": "REQ-094",
+      "children_ids": [],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > We confidently predict what our customers need"
+    },
+    {
+      "outcome_id": "REQ-096",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 3,
+      "outcome_text": "Expectation break down structures are visible & easily accessed",
+      "parent_id": "REQ-094",
+      "children_ids": [],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Expectation break down structures are visible & easily accessed"
+    },
+    {
+      "outcome_id": "REQ-097",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 1,
+      "outcome_text": "Product evaluation traceability to expectations are never compromised",
+      "parent_id": null,
+      "children_ids": [
+        "REQ-098",
+        "REQ-099",
+        "REQ-100"
+      ],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Product evaluation traceability to expectations are never compromised"
+    },
+    {
+      "outcome_id": "REQ-098",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 2,
+      "outcome_text": "Product Requirements are released for design verification",
+      "parent_id": "REQ-097",
+      "children_ids": [],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Product Requirements are released for design verification"
+    },
+    {
+      "outcome_id": "REQ-099",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 2,
+      "outcome_text": "Verification results are linked to the Product Stakeholder Expectations",
+      "parent_id": "REQ-097",
+      "children_ids": [],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Verification results are linked to the Product Stakeholder Expectations"
+    },
+    {
+      "outcome_id": "REQ-100",
+      "cluster": "Requirements Management",
+      "cluster_id": "REQ",
+      "highest_order_outcome": "Product expectations are met in the most effective and efficient manner",
+      "tier_level": 2,
+      "outcome_text": "Validation results are linked to Product Stakeholder Expectations",
+      "parent_id": "REQ-097",
+      "children_ids": [],
+      "full_hierarchical_path": "Requirements Management > Product expectations are met in the most effective and efficient manner > Validation results are linked to Product Stakeholder Expectations"
+    },
+    {
+      "outcome_id": "DES-101",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 1,
+      "outcome_text": "The most innovative and unexpected ideas are incorporated in the designs of new products & technologies",
+      "parent_id": null,
+      "children_ids": [
+        "DES-102",
+        "DES-110"
+      ],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > The most innovative and unexpected ideas are incorporated in the designs of new products & technologies"
+    },
+    {
+      "outcome_id": "DES-102",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 2,
+      "outcome_text": "The most informed, intelligent and complete insights are leveraged",
+      "parent_id": "DES-101",
+      "children_ids": [
+        "DES-103",
+        "DES-104",
+        "DES-105",
+        "DES-108",
+        "DES-109"
+      ],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > The most informed, intelligent and complete insights are leveraged"
+    },
+    {
+      "outcome_id": "DES-103",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "Simulation enable new thought processes",
+      "parent_id": "DES-102",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Simulation enable new thought processes"
+    },
+    {
+      "outcome_id": "DES-104",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "Design iterations are continuous and fluid to advance our technologies",
+      "parent_id": "DES-102",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Design iterations are continuous and fluid to advance our technologies"
+    },
+    {
+      "outcome_id": "DES-105",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "We accurately foresee our customer's needs before they know they have them",
+      "parent_id": "DES-102",
+      "children_ids": [
+        "DES-106",
+        "DES-107"
+      ],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > We accurately foresee our customer's needs before they know they have them"
+    },
+    {
+      "outcome_id": "DES-106",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 4,
+      "outcome_text": "A deep understanding of our customer's business and industry exists",
+      "parent_id": "DES-105",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > A deep understanding of our customer's business and industry exists"
+    },
+    {
+      "outcome_id": "DES-107",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 4,
+      "outcome_text": "Customers are actively engaged to co-design future offerings",
+      "parent_id": "DES-105",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Customers are actively engaged to co-design future offerings"
+    },
+    {
+      "outcome_id": "DES-108",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "Immersive virtual experiences enable optimal designs",
+      "parent_id": "DES-102",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Immersive virtual experiences enable optimal designs"
+    },
+    {
+      "outcome_id": "DES-109",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "Leading edge technologies are continually discovered",
+      "parent_id": "DES-102",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Leading edge technologies are continually discovered"
+    },
+    {
+      "outcome_id": "DES-110",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 2,
+      "outcome_text": "New innovations are rapidly tested for desirability with our customers",
+      "parent_id": "DES-101",
+      "children_ids": [
+        "DES-111",
+        "DES-112"
+      ],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > New innovations are rapidly tested for desirability with our customers"
+    },
+    {
+      "outcome_id": "DES-111",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "Leading edge technologies are continually discovered",
+      "parent_id": "DES-110",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Leading edge technologies are continually discovered"
+    },
+    {
+      "outcome_id": "DES-112",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "Feedback from customers, partners and other stakeholders about new ideas is evaluated",
+      "parent_id": "DES-110",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Feedback from customers, partners and other stakeholders about new ideas is evaluated"
+    },
+    {
+      "outcome_id": "DES-113",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 1,
+      "outcome_text": "Our ways for working are the most effective",
+      "parent_id": null,
+      "children_ids": [
+        "DES-114",
+        "DES-117"
+      ],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Our ways for working are the most effective"
+    },
+    {
+      "outcome_id": "DES-114",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 2,
+      "outcome_text": "The most economically attractive designs are achieved",
+      "parent_id": "DES-113",
+      "children_ids": [
+        "DES-115",
+        "DES-116"
+      ],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > The most economically attractive designs are achieved"
+    },
+    {
+      "outcome_id": "DES-115",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "True virtual models accurately represent the product's behavior under varied conditions",
+      "parent_id": "DES-114",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > True virtual models accurately represent the product's behavior under varied conditions"
+    },
+    {
+      "outcome_id": "DES-116",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "Design reuse is maximized",
+      "parent_id": "DES-114",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Design reuse is maximized"
+    },
+    {
+      "outcome_id": "DES-117",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 2,
+      "outcome_text": "Work is easily performed at an unsurpassed level of excellence",
+      "parent_id": "DES-113",
+      "children_ids": [
+        "DES-118",
+        "DES-119",
+        "DES-120",
+        "DES-121"
+      ],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Work is easily performed at an unsurpassed level of excellence"
+    },
+    {
+      "outcome_id": "DES-118",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "Tooling design is a natural and seamless extension of product part design",
+      "parent_id": "DES-117",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Tooling design is a natural and seamless extension of product part design"
+    },
+    {
+      "outcome_id": "DES-119",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "The most innovative and forward thinking design practices are created",
+      "parent_id": "DES-117",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > The most innovative and forward thinking design practices are created"
+    },
+    {
+      "outcome_id": "DES-120",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "Employees closest to the point of impact are empowered to make decisions",
+      "parent_id": "DES-117",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Employees closest to the point of impact are empowered to make decisions"
+    },
+    {
+      "outcome_id": "DES-121",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "Non-value activities are relentlessly eliminated",
+      "parent_id": "DES-117",
+      "children_ids": [
+        "DES-122",
+        "DES-123",
+        "DES-124"
+      ],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Non-value activities are relentlessly eliminated"
+    },
+    {
+      "outcome_id": "DES-122",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 4,
+      "outcome_text": "Verification planning is embedded in the early stages of how products are developed",
+      "parent_id": "DES-121",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Verification planning is embedded in the early stages of how products are developed"
+    },
+    {
+      "outcome_id": "DES-123",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 4,
+      "outcome_text": "Ideally work is completed with concurrent activities",
+      "parent_id": "DES-121",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Ideally work is completed with concurrent activities"
+    },
+    {
+      "outcome_id": "DES-124",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 4,
+      "outcome_text": "Design validations and verifications are automatically completed",
+      "parent_id": "DES-121",
+      "children_ids": [
+        "DES-125",
+        "DES-126"
+      ],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Design validations and verifications are automatically completed"
+    },
+    {
+      "outcome_id": "DES-125",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 5,
+      "outcome_text": "Simulation and analysis are integrated throughout design lifecycle",
+      "parent_id": "DES-124",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Simulation and analysis are integrated throughout design lifecycle"
+    },
+    {
+      "outcome_id": "DES-126",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 5,
+      "outcome_text": "xisting Test Data and Part performance history is readily leveraged",
+      "parent_id": "DES-124",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > xisting Test Data and Part performance history is readily leveraged"
+    },
+    {
+      "outcome_id": "DES-127",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 1,
+      "outcome_text": "Molex, our customers and partners are engaged in mutually beneficial collaboration",
+      "parent_id": null,
+      "children_ids": [
+        "DES-128",
+        "DES-133"
+      ],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Molex, our customers and partners are engaged in mutually beneficial collaboration"
+    },
+    {
+      "outcome_id": "DES-128",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 2,
+      "outcome_text": "Partner competencies blend to create unique synergies",
+      "parent_id": "DES-127",
+      "children_ids": [
+        "DES-129",
+        "DES-130"
+      ],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Partner competencies blend to create unique synergies"
+    },
+    {
+      "outcome_id": "DES-129",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "Suppliers are seamlessly integrated in the design process",
+      "parent_id": "DES-128",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Suppliers are seamlessly integrated in the design process"
+    },
+    {
+      "outcome_id": "DES-130",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "A strong, unbreakable bond of trust exists",
+      "parent_id": "DES-128",
+      "children_ids": [
+        "DES-131",
+        "DES-132"
+      ],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > A strong, unbreakable bond of trust exists"
+    },
+    {
+      "outcome_id": "DES-131",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 4,
+      "outcome_text": "Partner share in the same vision and values",
+      "parent_id": "DES-130",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Partner share in the same vision and values"
+    },
+    {
+      "outcome_id": "DES-132",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 4,
+      "outcome_text": "Clear accountabilities for results exist",
+      "parent_id": "DES-130",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Clear accountabilities for results exist"
+    },
+    {
+      "outcome_id": "DES-133",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 2,
+      "outcome_text": "Collaboration naturally occurs between all functional groups",
+      "parent_id": "DES-127",
+      "children_ids": [
+        "DES-134",
+        "DES-135"
+      ],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Collaboration naturally occurs between all functional groups"
+    },
+    {
+      "outcome_id": "DES-134",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "An enabled workforce accelerates collaboration and efficiencies across the enterprise",
+      "parent_id": "DES-133",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > An enabled workforce accelerates collaboration and efficiencies across the enterprise"
+    },
+    {
+      "outcome_id": "DES-135",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "Collaboration extends simultaneously beyond internal organization with real-time integration",
+      "parent_id": "DES-133",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Collaboration extends simultaneously beyond internal organization with real-time integration"
+    },
+    {
+      "outcome_id": "DES-136",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 1,
+      "outcome_text": "The best skills and knowledge is thoughtfully leveraged to meet our needs",
+      "parent_id": null,
+      "children_ids": [
+        "DES-137",
+        "DES-141"
+      ],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > The best skills and knowledge is thoughtfully leveraged to meet our needs"
+    },
+    {
+      "outcome_id": "DES-137",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 2,
+      "outcome_text": "Knowledge is revered as a valuable asset",
+      "parent_id": "DES-136",
+      "children_ids": [
+        "DES-138",
+        "DES-139",
+        "DES-140"
+      ],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Knowledge is revered as a valuable asset"
+    },
+    {
+      "outcome_id": "DES-138",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "Best practices are documented and widely disseminated",
+      "parent_id": "DES-137",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Best practices are documented and widely disseminated"
+    },
+    {
+      "outcome_id": "DES-139",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "Individuals contributing knowledge are rewarded and recognized",
+      "parent_id": "DES-137",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Individuals contributing knowledge are rewarded and recognized"
+    },
+    {
+      "outcome_id": "DES-140",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "Information is organized and is easily consumed",
+      "parent_id": "DES-137",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Information is organized and is easily consumed"
+    },
+    {
+      "outcome_id": "DES-141",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 2,
+      "outcome_text": "Complete and accurate Product Development related knowledge is immediately accessable",
+      "parent_id": "DES-136",
+      "children_ids": [
+        "DES-142",
+        "DES-147"
+      ],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Complete and accurate Product Development related knowledge is immediately accessable"
+    },
+    {
+      "outcome_id": "DES-142",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "A single source of truth exists",
+      "parent_id": "DES-141",
+      "children_ids": [
+        "DES-143",
+        "DES-144",
+        "DES-145",
+        "DES-146"
+      ],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > A single source of truth exists"
+    },
+    {
+      "outcome_id": "DES-143",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 4,
+      "outcome_text": "Formal design & product part information flows-down across all functional groups & partners.",
+      "parent_id": "DES-142",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Formal design & product part information flows-down across all functional groups & partners."
+    },
+    {
+      "outcome_id": "DES-144",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 4,
+      "outcome_text": "Manufacturing information is digitally tied to product part models and part information",
+      "parent_id": "DES-142",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Manufacturing information is digitally tied to product part models and part information"
+    },
+    {
+      "outcome_id": "DES-145",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 4,
+      "outcome_text": "Standardized sources of secure global product part and domain information exists",
+      "parent_id": "DES-142",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Standardized sources of secure global product part and domain information exists"
+    },
+    {
+      "outcome_id": "DES-146",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 4,
+      "outcome_text": "Any change made to product related information by any function in the company is instantly updated",
+      "parent_id": "DES-142",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Any change made to product related information by any function in the company is instantly updated"
+    },
+    {
+      "outcome_id": "DES-147",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 3,
+      "outcome_text": "Knowledge is acquired",
+      "parent_id": "DES-141",
+      "children_ids": [
+        "DES-148",
+        "DES-149",
+        "DES-150"
+      ],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Knowledge is acquired"
+    },
+    {
+      "outcome_id": "DES-148",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 4,
+      "outcome_text": "Assets that generate data are seamlessly connected",
+      "parent_id": "DES-147",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Assets that generate data are seamlessly connected"
+    },
+    {
+      "outcome_id": "DES-149",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 4,
+      "outcome_text": "Active experimentation and exploration are actively practiced",
+      "parent_id": "DES-147",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Active experimentation and exploration are actively practiced"
+    },
+    {
+      "outcome_id": "DES-150",
+      "cluster": "Design Management and Collaboration",
+      "cluster_id": "DES",
+      "highest_order_outcome": "We reach ever increasing levels of success in designing products",
+      "tier_level": 4,
+      "outcome_text": "Information and knowledge is freely shared acro",
+      "parent_id": "DES-147",
+      "children_ids": [],
+      "full_hierarchical_path": "Design Management and Collaboration > We reach ever increasing levels of success in designing products > Information and knowledge is freely shared acro"
+    }
+  ]
+}

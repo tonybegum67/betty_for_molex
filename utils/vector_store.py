@@ -94,22 +94,49 @@ class VectorStore:
                 st.info(f"💾 Using persistent ChromaDB storage: {self.db_path}")
                 self._client = chromadb.PersistentClient(path=self.db_path)
             
-            self._embedding_model = SentenceTransformer(self.embedding_model_name)
+            # Load embedding model with Streamlit Cloud optimization
+            self._embedding_model = self._load_embedding_model()
             if AppConfig.USE_RERANKING:
-                self._reranker = CrossEncoder(AppConfig.RERANKER_MODEL)
+                self._reranker = self._load_reranker_model()
                 
         except Exception as e:
             st.error(f"Failed to initialize vector store: {e}")
             # Try fallback initialization
             self._try_fallback_init()
-    
+
+    @st.cache_resource(show_spinner="🤖 Loading embedding model...")
+    def _load_embedding_model(_self):
+        """Load embedding model with Streamlit caching for faster cloud deployment."""
+        try:
+            # Use smaller model for Streamlit Cloud to reduce memory/time
+            model_name = os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2")
+            return SentenceTransformer(model_name)
+        except Exception as e:
+            st.error(f"Failed to load embedding model: {e}")
+            # Try fallback to smallest model
+            try:
+                st.warning("Trying fallback embedding model...")
+                return SentenceTransformer("paraphrase-MiniLM-L3-v2")
+            except:
+                st.error("All embedding models failed to load")
+                raise e
+
+    @st.cache_resource(show_spinner="🎯 Loading reranker model...")
+    def _load_reranker_model(_self):
+        """Load reranker model with Streamlit caching."""
+        try:
+            return CrossEncoder(AppConfig.RERANKER_MODEL)
+        except Exception as e:
+            st.warning(f"Reranker model failed to load: {e}. Continuing without reranking.")
+            return None
+
     def _try_fallback_init(self):
         """Try fallback initialization with simplified ChromaDB setup."""
         try:
             st.warning("Attempting fallback ChromaDB initialization...")
             # Force in-memory mode as fallback
             self._client = chromadb.Client()
-            self._embedding_model = SentenceTransformer(self.embedding_model_name)
+            self._embedding_model = self._load_embedding_model()
             # Skip reranking in fallback mode
             self._reranker = None
             st.success("Fallback initialization successful - using in-memory mode only")
@@ -235,22 +262,44 @@ class VectorStore:
                 return []
             
             query_embedding = self.embedding_model.encode([query]).tolist()
-            
+
+            # Get extra results for deterministic ranking
+            search_results = min(n_results * 2, 20)
             results = collection.query(
                 query_embeddings=query_embedding,
-                n_results=n_results
+                n_results=search_results,
+                include=["documents", "metadatas", "distances"]
             )
-            
-            return [
-                {
+
+            # Format results with deterministic sorting
+            formatted_results = []
+            for i, (doc, meta) in enumerate(zip(results["documents"][0], results["metadatas"][0])):
+                # Add distance if available, otherwise use index
+                distance = results.get("distances", [[]])[0][i] if "distances" in results else i * 0.001
+                formatted_results.append({
                     "content": doc,
-                    "metadata": meta
-                }
-                for doc, meta in zip(
-                    results["documents"][0], 
-                    results["metadatas"][0]
-                )
-            ]
+                    "metadata": meta,
+                    "distance": distance,
+                    "filename": meta.get('filename', ''),
+                    "content_length": len(doc)
+                })
+
+            # Deterministic sorting for consistent results
+            formatted_results.sort(key=lambda x: (
+                round(x["distance"], 6),  # Round for consistent comparison
+                x["filename"],
+                x["content_length"]
+            ))
+
+            # Return only requested number, removing sorting metadata
+            final_results = []
+            for result in formatted_results[:n_results]:
+                final_results.append({
+                    "content": result["content"],
+                    "metadata": result["metadata"]
+                })
+
+            return final_results
             
         except Exception as e:
             st.error(f"Error searching collection '{collection_name}': {e}")
