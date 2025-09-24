@@ -56,7 +56,17 @@ def initialize_knowledge_base():
             try:
                 collection_name = AppConfig.KNOWLEDGE_COLLECTION_NAME
                 docs_path = "docs"
-                
+
+                # Check for forced reindex (for cloud deployment updates)
+                force_reindex = os.getenv("FORCE_REINDEX", "").lower() in ["true", "1", "yes"]
+                if force_reindex:
+                    st.info("🔄 Force reindex requested - rebuilding knowledge base with latest enhancements...")
+                    # Remove existing collection to force complete rebuild
+                    collections = betty_vector_store.list_collections()
+                    if collection_name in collections:
+                        betty_vector_store.delete_collection(collection_name)
+                        st.success("✅ Existing database cleared for complete rebuild")
+
                 # Check if collection exists and get current state
                 collections = betty_vector_store.list_collections()
                 collection_exists = collection_name in collections
