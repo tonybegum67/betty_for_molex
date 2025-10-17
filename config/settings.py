@@ -18,7 +18,7 @@ class AppConfig:
     
     # Claude API Configuration
     ANTHROPIC_API_KEY: Optional[str] = None
-    CLAUDE_MODEL: str = "claude-3-5-sonnet-20241022"
+    CLAUDE_MODEL: str = "claude-sonnet-4-20250514"
     
     # AI Provider Selection
     AI_PROVIDER: str = os.getenv("AI_PROVIDER", "claude")  # "openai" or "claude"

@@ -17,3 +17,6 @@ pandas
 streamlit-mermaid
 # Additional ChromaDB dependencies for Streamlit Cloud
 sqlite-utils
+# Evaluation dependencies
+scikit-learn
+numpy
