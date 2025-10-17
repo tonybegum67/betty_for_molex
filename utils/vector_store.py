@@ -398,8 +398,12 @@ class VectorStore:
                     text = document_processor.extract_text_from_pdf(file_io)
                 elif file_type == 'docx':
                     text = document_processor.extract_text_from_docx(file_io)
-                elif file_type == 'txt':
+                elif file_type == 'txt' or file_type == 'md':
                     text = document_processor.extract_text_from_txt(file_io)
+                elif file_type == 'csv':
+                    text = document_processor.extract_text_from_csv(file_io)
+                elif file_type == 'xlsx':
+                    text = document_processor.extract_text_from_xlsx(file_io)
                 else:
                     continue
                 

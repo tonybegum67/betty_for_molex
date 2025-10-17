@@ -15,6 +15,11 @@ import streamlit as st
 import tiktoken
 from config.settings import AppConfig
 try:
+    import openpyxl
+    OPENPYXL_AVAILABLE = True
+except ImportError:
+    OPENPYXL_AVAILABLE = False
+try:
     import nltk
     from nltk.tokenize import sent_tokenize
     NLTK_AVAILABLE = True
@@ -77,25 +82,28 @@ class DocumentProcessor:
     
     def extract_text_from_docx(self, file: io.BytesIO) -> str:
         """Extract text from an in-memory DOCX file with structure preservation.
-        
+
         Args:
             file: BytesIO object containing DOCX data.
-            
+
         Returns:
             Extracted text with preserved structure, empty string if extraction fails.
         """
         try:
             doc = docx.Document(file)
             content_parts = []
-            
+
             # Process paragraphs with style information
             for para in doc.paragraphs:
                 text = para.text.strip()
                 if not text:
                     continue
-                
+
+                # Check if style exists and has a name
+                style_name = para.style.name if para.style and hasattr(para.style, 'name') else 'Normal'
+
                 # Preserve heading structure
-                if para.style.name.startswith('Heading'):
+                if style_name and style_name.startswith('Heading'):
                     level = para.style.name.replace('Heading ', '')
                     if level.isdigit():
                         heading_level = int(level)
@@ -104,7 +112,7 @@ class DocumentProcessor:
                     else:
                         content_parts.append(f"\n## {text}\n")
                 # Preserve list structure
-                elif para.style.name.startswith('List'):
+                elif style_name and style_name.startswith('List'):
                     content_parts.append(f"• {text}")
                 # Regular paragraphs
                 else:
@@ -253,7 +261,80 @@ class DocumentProcessor:
         except Exception as e:
             st.error(f"Error processing CSV file: {e}")
             return ""
-    
+
+    def extract_text_from_xlsx(self, file: io.BytesIO) -> str:
+        """Extract text from an Excel (.xlsx) file with structured formatting.
+
+        Args:
+            file: BytesIO object containing XLSX data.
+
+        Returns:
+            Formatted text representation of Excel data, empty string if extraction fails.
+        """
+        if not OPENPYXL_AVAILABLE:
+            st.error("openpyxl library not available. Install it to process XLSX files.")
+            return ""
+
+        try:
+            file.seek(0)
+            workbook = openpyxl.load_workbook(file, data_only=True)
+            text_parts = []
+
+            # Process each sheet
+            for sheet_name in workbook.sheetnames:
+                sheet = workbook[sheet_name]
+
+                # Add sheet header
+                text_parts.append(f"\n=== Sheet: {sheet_name} ===\n")
+
+                # Get dimensions
+                max_row = sheet.max_row
+                max_col = sheet.max_column
+
+                if max_row == 0 or max_col == 0:
+                    text_parts.append("(Empty sheet)")
+                    continue
+
+                # Extract headers (first row)
+                headers = []
+                for col in range(1, max_col + 1):
+                    cell_value = sheet.cell(row=1, column=col).value
+                    headers.append(str(cell_value) if cell_value is not None else f"Column{col}")
+
+                text_parts.append(f"Columns: {', '.join(headers)}")
+                text_parts.append("")
+
+                # Extract data rows
+                for row_num in range(2, max_row + 1):
+                    row_data = []
+                    row_text = f"Row {row_num - 1}:"
+
+                    for col_num in range(1, max_col + 1):
+                        cell_value = sheet.cell(row=row_num, column=col_num).value
+
+                        if cell_value is not None:
+                            # Clean the value
+                            value_str = str(cell_value).strip()
+                            if value_str:
+                                header = headers[col_num - 1]
+                                row_text += f" {header}: {value_str},"
+                                row_data.append(value_str)
+
+                    if row_data:  # Only add non-empty rows
+                        text_parts.append(row_text.rstrip(','))
+
+                    # Add spacing every 10 rows for readability
+                    if (row_num - 1) % 10 == 0 and row_num > 2:
+                        text_parts.append("")
+
+                text_parts.append("")  # Blank line between sheets
+
+            return '\n'.join(text_parts)
+
+        except Exception as e:
+            st.error(f"Error processing XLSX file: {e}")
+            return ""
+
     def clean_text(self, text: str) -> str:
         """Clean and normalize extracted text.
         
@@ -391,23 +472,27 @@ class DocumentProcessor:
     
     def get_file_type(self, filename: str) -> Optional[str]:
         """Determine file type from filename.
-        
+
         Args:
             filename: Name of the file.
-            
+
         Returns:
             File type string or None if unsupported.
         """
         filename_lower = filename.lower()
-        
+
         if filename_lower.endswith('.pdf'):
             return 'pdf'
         elif filename_lower.endswith('.docx'):
             return 'docx'
         elif filename_lower.endswith('.txt'):
             return 'txt'
+        elif filename_lower.endswith('.md'):
+            return 'md'
         elif filename_lower.endswith('.csv'):
             return 'csv'
+        elif filename_lower.endswith('.xlsx'):
+            return 'xlsx'
         else:
             return None
     
@@ -436,18 +521,20 @@ class DocumentProcessor:
         
         try:
             file_bytes = io.BytesIO(uploaded_file.getvalue())
-            
+
             if file_type == 'pdf':
                 text = self.extract_text_from_pdf(file_bytes)
             elif file_type == 'docx':
                 text = self.extract_text_from_docx(file_bytes)
-            elif file_type == 'txt':
+            elif file_type == 'txt' or file_type == 'md':
                 text = self.extract_text_from_txt(file_bytes)
             elif file_type == 'csv':
                 text = self.extract_text_from_csv(file_bytes)
+            elif file_type == 'xlsx':
+                text = self.extract_text_from_xlsx(file_bytes)
             else:
                 return ""
-            
+
             return self.clean_text(text)
             
         except Exception as e:

@@ -1,0 +1,185 @@
+# AWS AgentCore Evaluation Configuration for Betty v4.2
+# Strategic Transformation Assistant - OBT Methodology Expert
+# Created: October 2025
+# Developer: Tony Begum, AI Architect, BoldARC Advisors
+
+evaluation:
+  name: "Betty_OBT_Methodology_Assessment"
+  version: "4.2"
+  description: "Comprehensive evaluation of Betty's strategic transformation capabilities across OBT methodology and 8 product development domains"
+
+  # Agent Configuration
+  agent:
+    name: "Betty for Molex"
+    model: "claude-3-5-sonnet-20241022"
+    system_prompt_version: "4.2"
+    knowledge_base_size: "54 documents"
+    data_completeness: "95%"
+    domains: 8
+
+  # Test Dimensions (weighted scoring)
+  metrics:
+    exact_match:
+      weight: 0.15
+      description: "Binary match to expected response"
+
+    semantic_similarity:
+      weight: 0.25
+      description: "Vector similarity between agent response and expected response"
+      threshold: 0.75
+
+    rubric_precision:
+      weight: 0.20
+      description: "Length accuracy and concept precision"
+      scale: "0-3"
+      criteria:
+        - "3: Excellent - Concise, matches expected length and concept coverage"
+        - "2: Good - Minor verbosity or concept gaps"
+        - "1: Fair - Moderate verbosity or significant concept gaps"
+        - "0: Poor - Excessive verbosity or missing key concepts"
+
+    rubric_adherence:
+      weight: 0.25
+      description: "OBT methodology compliance"
+      scale: "0-3"
+      criteria:
+        - "3: Excellent - Follows all OBT rules (What vs How, ≤10 words, metric-free, present tense)"
+        - "2: Good - Minor OBT violations or format issues"
+        - "1: Fair - Multiple OBT violations but core understanding present"
+        - "0: Poor - Fundamental misunderstanding of OBT principles"
+
+    rubric_explanation:
+      weight: 0.15
+      description: "Response quality and justification clarity"
+      scale: "0-3"
+      criteria:
+        - "3: Excellent - Clear justification with evidence and reasoning"
+        - "2: Good - Adequate explanation with minor gaps"
+        - "1: Fair - Minimal explanation or unclear reasoning"
+        - "0: Poor - No justification or incorrect reasoning"
+
+  # Test Coverage Areas
+  test_categories:
+    outcome_rewriting:
+      weight: 0.25
+      description: "Converting activity statements to outcome statements"
+      question_count: 12
+
+    classification:
+      weight: 0.20
+      description: "Distinguishing What from How statements"
+      question_count: 10
+
+    acceptance_criteria:
+      weight: 0.15
+      description: "Defining owner, measure, and evidence for outcomes"
+      question_count: 6
+
+    domain_expertise:
+      weight: 0.20
+      description: "Multi-domain knowledge across 8 product development areas"
+      question_count: 10
+
+    maturity_assessment:
+      weight: 0.10
+      description: "Capability maturity evaluation (1-5 scale)"
+      question_count: 5
+
+    portfolio_analysis:
+      weight: 0.10
+      description: "Project prioritization and impact scoring"
+      question_count: 7
+
+  # Performance Benchmarks
+  performance:
+    response_time:
+      target_ms: 15000
+      threshold_ms: 30000
+
+    token_efficiency:
+      max_input_tokens: 8000
+      max_output_tokens: 2000
+
+    success_thresholds:
+      excellent: 0.85
+      good: 0.75
+      acceptable: 0.65
+      needs_improvement: 0.50
+
+  # Domain Coverage
+  domains_tested:
+    - name: "Change Control Management"
+      question_count: 3
+      focus: "ECO workflows, approval processes, governance"
+
+    - name: "BOM & PIM Management"
+      question_count: 3
+      focus: "Part information, master data, product structure"
+
+    - name: "Requirements Management"
+      question_count: 2
+      focus: "Requirement capture, validation, traceability"
+
+    - name: "Design Management & Collaboration"
+      question_count: 3
+      focus: "Design workflows, collaboration tools, handoff processes"
+
+    - name: "Data & AI"
+      question_count: 2
+      focus: "Data governance, AI strategy, predictive analytics"
+
+    - name: "Global PD"
+      question_count: 4
+      focus: "Enterprise PD strategy, cross-domain integration, KPIs"
+
+    - name: "OBT Methodology"
+      question_count: 8
+      focus: "GPS framework, What/How mapping, outcome statements"
+
+    - name: "Cross-Domain Integration"
+      question_count: 5
+      focus: "Multi-domain scenarios, capability alignment, strategic transformation"
+
+  # Output Configuration
+  output:
+    format: "csv"
+    fields:
+      - "test_id"
+      - "category"
+      - "domain"
+      - "prompt"
+      - "expected_response"
+      - "agent_response"
+      - "exact_match"
+      - "semantic_similarity"
+      - "rubric_precision"
+      - "rubric_adherence"
+      - "rubric_explanation"
+      - "overall_score"
+      - "execution_time_ms"
+      - "error"
+      - "analysis_notes"
+
+    summary_report: true
+    detailed_feedback: true
+
+  # Validation Rules
+  validation:
+    obt_compliance:
+      - "Outcome statements must be ≤10 words"
+      - "Must use present tense for achieved states"
+      - "Must be metric-free (numbers in acceptance criteria only)"
+      - "Must distinguish What (outcomes) from How (methods)"
+      - "Must avoid implementation verbs (deploy, implement, build, create)"
+
+    domain_accuracy:
+      - "Must cite specific data sources when available"
+      - "Must distinguish maturity levels (1-5) from impact scores (0-3)"
+      - "Must provide confidence levels for data-based answers"
+      - "Must route queries to appropriate domain expertise"
+
+    response_quality:
+      - "Must be concise and direct without unnecessary preambles"
+      - "Must provide evidence-based reasoning"
+      - "Must offer appropriate next steps when relevant"
+      - "Must maintain professional boundaries"
